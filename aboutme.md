@@ -1,16 +1,9 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+image:
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Guillermo Fidalgo
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I am currently in my last year as a Physics major from the University of Puerto Rico at Mayagüez [(UPRM)](https://www.uprm.edu/portada/). I have had the experience of doing physics demonstrations to high school, elementary school students, and to the general public. Have done Research Semester at [CERN](https://home.cern) in Geneva, Switzerland for which I learned about the basics of Machine Learning and where I learn how to apply Machine Learning to monitor data for a The HCAL sub-detector of the [CMS Experiment](https://home.cern/science/experiments/cms). Currently I am working with a group of researchers from [Fermilab](http://fnal.gov/) that focus on improving the Data Quality Monitoring process for offline DQM shifters by applying ML to another the Inner Tracker.
