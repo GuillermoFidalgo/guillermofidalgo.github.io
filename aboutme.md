@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-image:
+image: /img/Cern pic.jpg
 ---
 
 My name is Guillermo Fidalgo
