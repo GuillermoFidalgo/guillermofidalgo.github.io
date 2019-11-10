@@ -1,5 +1,5 @@
 ---
-title: My Research
+title: Weekly TkDQM meetings
 layout: page
 ---
 
