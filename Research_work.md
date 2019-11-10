@@ -3,8 +3,6 @@ title: Weekly TkDQM meetings
 layout: page
 ---
 
-# Machine Learning for HCAL DQM
-## [[report]](/assets/Biblatex_version_main.pdf)
 
 # Presentation links
 
