@@ -22,7 +22,7 @@ description: I am currently in my last year as a Physics major from the Universi
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  
+  Curriculum Vitae: "/assets/GF-Resume.pdf"
   For Sudhir:
     - Tracker DQM Meetings: "Research_work"
 
