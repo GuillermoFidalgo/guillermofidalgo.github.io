@@ -21,7 +21,7 @@ description: Personal Webiste
 # List of links in the navigation bar
 navbar-links:
   Home: "index"
-  Curriculum Vitae: "/assets/GF-Resume.pdf"
+  CV: "/assets/GF-Resume.pdf"
   Tracker DQM Meetings: "Research_work"
 
 
