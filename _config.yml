@@ -22,8 +22,7 @@ description: Personal Webiste
 navbar-links:
   Home: "index"
   Curriculum Vitae: "/assets/GF-Resume.pdf"
-  For Sudhir:
-    - Tracker DQM Meetings: "Research_work"
+  Tracker DQM Meetings: "Research_work"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
