@@ -22,12 +22,12 @@ description: Personal Webiste
 navbar-links:
   Home: "index"
   CV: "/assets/GF-Resume.pdf"
-  Tracker DQM Meetings: "Research_work"
+  Tracker DQM Meetings (CMS Only): "Research_work"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/Cern pic.jpg"
+avatar: "/img/Fermi pic.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
