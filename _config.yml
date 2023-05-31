@@ -21,7 +21,7 @@
 title: Guillermo Fidalgo
 email: guillermo.fidalgo@upr.edu
 description: Here is my personal website. Where you can learn more about me and my professional interests.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/gfidalgo_website" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: guillo99
 github_username:  GuillermoFidalgo
