@@ -1,0 +1,73 @@
+[{
+    "title":"Teaching Python the Sustainable Way: Lessons Learned at HSF Training",
+    "location": "PyHEP 2022 Workshop (Virtual)",
+    "date" : "September 12, 2022",
+    "url": "https://indico.cern.ch/event/1150631/contributions/5014278/"
+},
+{
+    "title":"PyROOT tutorial experience from SWC Workshop",
+    "location": "12th ROOT Users' Workshop (Virtual)",
+    "date": "May 10, 2022",
+    "url": "https://indico.fnal.gov/event/23628/contributions/240752/"
+},
+{
+    "title": "New Trigger Studies for Emerging Jets at CMS Experiment",
+    "location": "PRIMS/JTM Conference (Humacao, Puerto Rico)",
+    "date": "April 9, 2022",
+    "url": "/assets/pdfs/PRISM_BetterPoster_EMJ.pdf"
+  },
+  {
+    "title": "Recent Progress in ML for Tracker DQM",
+    "location": "DPF Conference (Virtual)",
+    "date": "July 12, 2021",
+    "url": "https://indico.cern.ch/event/1034469/contributions/4434622/"
+  },
+  {
+    "title": "Machine Learning in DQM at CMS Experiment",
+    "location": "Physcon Conference (Rhode Island, USA)",
+    "date": "November 13-17, 2019",
+    "url": "/assets/pdfs/Physcon_Poster.pdf"
+  },
+  {
+    "title": "Machine Learning and Deep Neural Networks at CMS Experiment",
+    "location": "Physics symposium (University of Puerto Rico Mayagüez)",
+    "date": "May 24, 2019",
+    "url": "http://charma.uprm.edu/~malik/Undergrad_Summer_Symposium/2019/GF_2019.pdf"
+  },
+  {
+    "title": "Machine Learning in DQM at CMS Experiment",
+    "location": "PRISM/JTM Conference (Mayagüez, Puerto Rico)",
+    "date": "May 4, 2019",
+    "url": "https://guillermofidalgo.github.io/assets/ML4DQM_PRISM_2019_Talk.pdf"
+  },
+  {
+    "title": "Using ML techniques for DQM at CMS",
+    "location": "ML Hackathon (University of Puerto Rico Mayagüez)",
+    "date": "April 25, 2019",
+    "url": "https://indico.cern.ch/event/809812/contributions/3391219/"
+  },
+  {
+    "title": "Machine Learning in DQM at CMS Experiment",
+    "location": "FNAL 51st Annual Users Meeting and New Perspectives Meeting (Fermilab, Batavia, IL, USA) ",
+    "date": "June 18, 2018",
+    "url": "https://vms.fnal.gov/asset/detail?recid=1955984"
+  },
+  {
+    "title": "",
+    "location": "",
+    "date": "",
+    "url": ""
+  },
+  {
+    "title": "",
+    "location": "",
+    "date": "",
+    "url": ""
+  },
+  {
+    "title": "",
+    "location": "",
+    "date": "",
+    "url": ""
+  }
+]

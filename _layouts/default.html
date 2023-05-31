@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+          <div class="sidenav" style="width: 25%; float: left; position: fixed; margin-right: auto;">
+            <img src="/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; min-width: 100px ;max-width: 200px; width: 80%;" >
+          </div>
+          <div style="margin-left:25%">
+
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
