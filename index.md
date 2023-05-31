@@ -4,7 +4,9 @@
 title : ""
 layout: home
 ---
-  <!-- <img src="/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; 
+<!-- <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; min-width: 100px ;max-width: 200px; width: 80%;" > -->
+
+  <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; 
   /* max-width:100%;  */
   float: left;    
     margin: 0 15px 0 0;
@@ -12,9 +14,7 @@ layout: home
     margin-right: auto;
     margin-top: -100px; */
     height: 200px;
-  " > -->
-
-
+  " >
 
 My name is Guillermo Fidalgo and currently pursuing a Masters Thesis in Experimental High Energy Physics (CMS Experiment) at University of Puerto Rico Mayagüez [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards.
 
