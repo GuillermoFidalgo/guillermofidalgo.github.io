@@ -37,12 +37,12 @@ My current interest is Machine Learning (ML) and its applications. I am using ML
     
 2.  **Summer REU in CU Pathways to Physics Program, 2021**  
     Interned at the University of Colorado Boulder "Pathways to CU Physics" program under mentorship of Prof. Keith Ulmer. Worked on developing a new "High Level Trigger" to identify events that may contain signature of decays of dark matter particles known as "Emerging Jets".
-    *   [Final report]({{site.baseurl}}/assets/CU_Pathways_Final_Report.pdf)
+    *   [Final report]({{site.baseurl}}/assets/pdfs/CU_Pathways_Final_Report.pdf)
     *   [Ulmer lab](https://www.colorado.edu/program/pathways-to-cu-physics/ulmer-lab)
     *   [Student highlight](https://www.colorado.edu/physics-jila-reu/research/new-trigger-studies-emerging-jets-cms-experiment)
 3.  **Research Semester abroad at CERN, Spring 2018**  
     Worked under the "University of Michigan-CERN Research Semester Program" on applying Machine Learning in HCAL DQM (Hadron Calorimeter Data Quality Monitoring). This work formed basis of my undergrad thesis under UPRM COOP program titled “Using Machine Learning Techniques for Data Quality Monitoring at CMS Experiment".
-    *   [Final report]({{site.baseurl}}/assets/Biblatex_version_main.pdf)
+    *   [Final report]({{site.baseurl}}/assets/pdfs/Biblatex_version_main.pdf)
     *   Presentation [\[Agenda\]](https://indico.cern.ch/event/699240/#6-machine-learning-for-data-qu) [\[PDF\]](https://indico.cern.ch/event/699240/contributions/2867949/attachments/1616957/2571105/Machine_Learning_-_CERN_proyect_1.pdf) (March 15 2018)
     *   Presentation Machine Learning and Deep Neural Networks [\[Agenda\]](https://indico.cern.ch/event/699242/#9-machine-learning-and-deep-ne) [\[Video\]](https://cds.cern.ch/record/2313298) [\[PDF\]](https://indico.cern.ch/event/699242/contributions/2867965/attachments/1632154/2602586/Machine_Learning_-_CERN_proyect_2.pdf) (April 12 2018)
     *   Presentation [\[Agenda\]](https://indico.cern.ch/event/729259/#9-machine-learning-and-deep-ne) [\[Video\]](https://indico.cern.ch/event/729259/contributions/3004138/attachments/1648378/2647701/GuillermoFinalTalk.mp4) [\[PDF\]](https://indico.cern.ch/event/729259/contributions/3004138/attachments/1648378/2635295/Final_talk.pdf) (May 14 2018)
