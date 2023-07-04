@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Trigger Development for Emerging Jet Analysis (Poster)",
+        "location": "FNAL 56st Annual Users Meeting (Fermilab, Batavia, IL, USA)",
+        "date": "2023-06-28T00:00:00.000Z",
+        "url": "https://indico.fnal.gov/event/59656/contributions/268969/"
+    },
+    {
+        "title": "HEP Software Training with HSF/IRIS-HEP",
+        "location": "New Perspectives Meeting (Fermilab, Batavia, IL, USA)",
+        "date": "2023-06-27T00:00:00.000Z",
+        "url": "https://indico.fnal.gov/event/59506/contributions/269987/"
+    },
+    {
+        "title": "Teaching Python the Sustainable Way: Lessons Learned at HSF Training",
+        "location": "PyHEP 2022 Workshop (Virtual)",
+        "date": "2022-09-12T00:00:00.000Z",
+        "url": "https://indico.cern.ch/event/1150631/contributions/5014278/"
+    },
+    {
+        "title": "PyROOT tutorial experience from SWC Workshop",
+        "location": "12th ROOT Users' Workshop (Virtual)",
+        "date": "2022-05-10T00:00:00.000Z",
+        "url": "https://indico.fnal.gov/event/23628/contributions/240752/"
+    },
+    {
+        "title": "New Trigger Studies for Emerging Jets at CMS Experiment",
+        "location": "PRIMS/JTM Conference (Humacao, Puerto Rico)",
+        "date": "2022-04-09T00:00:00.000Z",
+        "url": "/assets/pdfs/PRISM_BetterPoster_EMJ.pdf"
+    },
+    {
+        "title": "Recent Progress in ML for Tracker DQM",
+        "location": "DPF Conference (Virtual)",
+        "date": "2021-07-12T00:00:00.000Z",
+        "url": "https://indico.cern.ch/event/1034469/contributions/4434622/"
+    },
+    {
+        "title": "Machine Learning in DQM at CMS Experiment",
+        "location": "Physcon Conference (Rhode Island, USA)",
+        "date": "2019-11-13T00:00:00.000Z",
+        "url": "/assets/pdfs/Physcon_Poster.pdf"
+    },
+    {
+        "title": "Machine Learning and Deep Neural Networks at CMS Experiment",
+        "location": "Physics symposium (University of Puerto Rico Mayag\u00fcez)",
+        "date": "2019-05-24T00:00:00.000Z",
+        "url": "http://charma.uprm.edu/~malik/Undergrad_Summer_Symposium/2019/GF_2019.pdf"
+    },
+    {
+        "title": "Machine Learning in DQM at CMS Experiment",
+        "location": "PRISM/JTM Conference (Mayag\u00fcez, Puerto Rico)",
+        "date": "2019-05-04T00:00:00.000Z",
+        "url": "/assets/pdfs/ML4DQM_PRISM_2019_Talk.pdf"
+    },
+    {
+        "title": "Using ML techniques for DQM at CMS",
+        "location": "ML Hackathon (University of Puerto Rico Mayag\u00fcez)",
+        "date": "2019-04-25T00:00:00.000Z",
+        "url": "https://indico.cern.ch/event/809812/contributions/3391219/"
+    },
+    {
+        "title": "Machine Learning in DQM at CMS Experiment",
+        "location": "FNAL 51st Annual Users Meeting and New Perspectives Meeting (Fermilab, Batavia, IL, USA) ",
+        "date": "2018-06-18T00:00:00.000Z",
+        "url": "https://vms.fnal.gov/asset/detail?recid=1955984"
+    }
+]

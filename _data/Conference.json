@@ -1,4 +1,22 @@
-[{
+[ {
+  "title": "",
+  "location": "",
+  "date": "",
+  "url": ""
+},
+{
+  "title": "HEP Software Training with HSF/IRIS-HEP",
+  "location": "New Perspectives Meeting (Fermilab, Batavia, IL, USA)",
+  "date": "June 27, 2023",
+  "url": "https://indico.fnal.gov/event/59506/contributions/269987/"
+},
+{
+  "title": "Trigger Development for Emerging Jet Analysis (Poster)",
+  "location": "FNAL 56st Annual Users Meeting (Fermilab, Batavia, IL, USA)",
+  "date": "June 28, 2023",
+  "url": "https://indico.fnal.gov/event/59656/contributions/268969/"
+  },
+ {
     "title":"Teaching Python the Sustainable Way: Lessons Learned at HSF Training",
     "location": "PyHEP 2022 Workshop (Virtual)",
     "date" : "September 12, 2022",
@@ -25,7 +43,7 @@
   {
     "title": "Machine Learning in DQM at CMS Experiment",
     "location": "Physcon Conference (Rhode Island, USA)",
-    "date": "November 13-17, 2019",
+    "date": "November 13, 2019",
     "url": "/assets/pdfs/Physcon_Poster.pdf"
   },
   {
@@ -51,23 +69,5 @@
     "location": "FNAL 51st Annual Users Meeting and New Perspectives Meeting (Fermilab, Batavia, IL, USA) ",
     "date": "June 18, 2018",
     "url": "https://vms.fnal.gov/asset/detail?recid=1955984"
-  },
-  {
-    "title": "",
-    "location": "",
-    "date": "",
-    "url": ""
-  },
-  {
-    "title": "",
-    "location": "",
-    "date": "",
-    "url": ""
-  },
-  {
-    "title": "",
-    "location": "",
-    "date": "",
-    "url": ""
   }
 ]
