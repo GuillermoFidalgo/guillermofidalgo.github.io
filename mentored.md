@@ -26,7 +26,5 @@ I have developed, organized and mentored the following education and outreach ac
 6.  "Data Analysis for STEM Teachers" (Virtual) **July 15-16, 2020** [\[Link\]](https://indico.cern.ch/event/927162/)
 7.  "Introduction to python programming for Undergrads" (UPRM, Puerto Rico) **22 February, 2020**  
     Workshop intended to teach local Physics students with python coding language with HEP applications. [\[Link\]](https://indico.cern.ch/event/891702/timetable/?view=standard)
-8.  "Scientific Software Club (SSC)" **Founded in August, 2019**  
-    Formed the [Scientific Software Club](https://sites.google.com/upr.edu/ssc-uprm/home?authuser=0) at UPRM to bring together students interests in software related research projects. Have given around 5 workshops including topics : Bash, Git and Python. Currently have over 100 members and growing.
 9.  "STEM Teachers Workshop" (UPRM, Puerto Rico) **3-4 June, 2019**  
     Workshop dedicated to enabling high school STEM teachers with coding. [\[Link\]](https://indico.cern.ch/event/817539/)
