@@ -12,10 +12,10 @@ permalink: /mentored/
 {% endfor %}
 
 
-### Education and outreach activities organized
+### Education and Outreach activities organized
 
 I have developed, organized and mentored the following education and outreach activities with high school teachers and students Puerto Rico.
-
+1. "Coding Camp" (Virtual) **July 10 - July 12, 2023** [\[Link\]](https://indico.cern.ch/event/1305236/)
 1.  "Python 101 for STEM Teacher" (UPRM, Puerto Rico) **August 20, 2022** [\[Link\]](https://indico.cern.ch/event/1180502/)
 2.  "Python 101 for STEM Teachers @CROEM" (CROEM, Mayagüez, Puerto Rico) **August 17, 2022** [\[Link\]](https://indico.cern.ch/event/1188757/)
 3.  "Astronomy Course for CROEM high school students" (Virtual) **Jan - May 2021**  
