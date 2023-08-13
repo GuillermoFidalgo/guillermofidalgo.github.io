@@ -20,7 +20,7 @@ I'm a lifelong learner and I'm also passionate about software training, educatio
 
 My current interest is Machine Learning (ML) and its applications. I am using ML to monitor the data quality of CMS Tracker and its future upgrade. I'm also working on an analysis looking for physics beyond the Standard Model (BSM) develping a new "High Level Trigger" to identify events that may contain signature of decays of dark matter particles to what are known as "Emerging Jets".  I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contributed papers. Most recently, I've mentored interns in the [U.S. CMS PURSUE](https://sites.google.com/upr.edu/uscms-pursue/) program to increase participation from underrepresented groups in HEP. I'm also a facilitator in the 2023 CMS Data Analysis School at the LPC (CMSDAS@LPC2023).
 
-### Published Papers
+# Published Papers
 
 *   _"Broadening the scope of Education, Career and Open Science in HEP"_ - [arXiv:2203.08809 \[physics.ed-ph\]](https://arxiv.org/abs/2203.08809)
 *   _"Particle Physics Outreach to K-12 Schools and Opportunities in Undergraduate Education"_ - [arXiv:2203.10953 \[physics.ed-ph\]](https://arxiv.org/abs/2203.10953)
@@ -28,7 +28,7 @@ My current interest is Machine Learning (ML) and its applications. I am using ML
 *   _"U.S. CMS - PURSUE (Program for Undergraduate Research SUmmer Experience)"_ - [arXiv:2209.10109 \[physics.ed-ph\]](https://arxiv.org/abs/2209.10109)  
     Acknowledged for effort in introducing HEP to a wider audience and take a small step towards trying to enhance the diversity of the HEP community.
 
-### Research Activities
+# Research Activities
 
 1.  **Emerging Jets Analysis (Master Thesis, work in progress)**  
     Emerging Jets is the signature of the decay of dark matter particles. According to P. Schwaller
