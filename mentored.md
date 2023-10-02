@@ -4,7 +4,6 @@ permalink: /mentored/
 ---
 
 
-
 {% for talk in site.data.mentored %}
 {% if talk.title != "" %}
 1. [*__{{talk.title}}__*]({{talk.url}}) - ({{talk.location}}) - {{talk.date}} 
