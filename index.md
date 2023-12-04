@@ -13,20 +13,18 @@ layout: home
 </center>
 
 <br>
+# About me
 
-My name is Guillermo Fidalgo and currently pursuing a Masters Thesis in Experimental High Energy Physics (CMS Experiment) at University of Puerto Rico Mayagüez [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards. 
+My name is Guillermo Fidalgo and I'm currently pursuing a Masters Thesis in Experimental High Energy Physics (CMS Experiment) at University of Puerto Rico Mayagüez [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards. 
 
 I'm a lifelong learner and I'm also passionate about software training, education and outreach. I am in the training team of [IRIS-HEP](https://iris-hep.org/ssc.html), [HSF](https://hepsoftwarefoundation.org/workinggroups/training.html), and a certified instructor of [The Carpentries](https://carpentries.org/). I have done several outreach activities with high school teachers and students in Puerto Rico. I've organized and mentored many workshops teaching at different academic levels from high school students to new HEP Postdocs on how to use basic software tools and do analysis. In 2019 I founded the [Scientific Software Club](https://sites.google.com/upr.edu/ssc-uprm/home?authuser=0) (SSC) at my university. This was formed at UPRM to bring together students interested in software related research projects. We have given around 5 workshops including topics : Bash, Git and Python. 
 
 My current interest is Machine Learning (ML) and its applications. I am using ML to monitor the data quality of CMS Tracker and its future upgrade. I'm also working on an analysis looking for physics beyond the Standard Model (BSM) develping a new "High Level Trigger" to identify events that may contain signature of decays of dark matter particles to what are known as "Emerging Jets".  I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contributed papers. Most recently, I've mentored interns in the [U.S. CMS PURSUE](https://sites.google.com/upr.edu/uscms-pursue/) program to increase participation from underrepresented groups in HEP. I'm also a facilitator in the 2023 CMS Data Analysis School at the LPC (CMSDAS@LPC2023).
 
-# Published Papers
+# Publications
 
-*   _"Broadening the scope of Education, Career and Open Science in HEP"_ - [arXiv:2203.08809 \[physics.ed-ph\]](https://arxiv.org/abs/2203.08809)
-*   _"Particle Physics Outreach to K-12 Schools and Opportunities in Undergraduate Education"_ - [arXiv:2203.10953 \[physics.ed-ph\]](https://arxiv.org/abs/2203.10953)
-*   _"Facilitating Non-HEP Career Transition" -_ [arXiv:2203.11665 \[physics.ed-ph\]](https://arxiv.org/abs/2203.11665)
-*   _"U.S. CMS - PURSUE (Program for Undergraduate Research SUmmer Experience)"_ - [arXiv:2209.10109 \[physics.ed-ph\]](https://arxiv.org/abs/2209.10109)  
-    Acknowledged for effort in introducing HEP to a wider audience and take a small step towards trying to enhance the diversity of the HEP community.
+{%include myPubs.md %}
+
 
 # Research Activities
 
