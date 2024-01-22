@@ -25,7 +25,7 @@ Most recently, I've mentored interns in the [U.S. CMS PURSUE](https://sites.goog
 Additionally I've also a facilitated the 2023 and 2024 CMS Data Analysis School at the LHC Physics Center at Fermilab (CMSDAS@LPC).
 
 My current interest is Machine Learning (ML) and its applications. I am using ML to monitor the data quality of CMS Tracker and its future upgrade. 
-Recently, I've participated and won a Machine Learning Hackathon organized by Lockheed Martin using Transfer Learning to make use of a previously [trained CNN](https://github.com/GuillermoFidalgo/ItDepends/tree/final) with the task to classify surface images from Mars Curiousity rover. 
+Recently, I've participated and won a Machine Learning Hackathon organized by Lockheed Martin using Transfer Learning to make use of a previously [trained CNN](https://github.com/GuillermoFidalgo/ItDepends/tree/final) with the task to classify surface images from Mars Curiosity rover. 
 I'm also working on an analysis looking for physics beyond the Standard Model (BSM) studying the performance of the "High Level Trigger" used to identify events that may contain signature of decays of dark matter particles to what are known as "Emerging Jets". This work is soon to be published.
 I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contributed papers. 
 
