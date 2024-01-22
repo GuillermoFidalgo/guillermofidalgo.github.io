@@ -1,4 +1,4 @@
 --- 
 title : My CV
-permalink : "assets/pdfs/GF-Resume.pdf"
+permalink : "assets/pdfs/GF-CV.pdf"
 ---
