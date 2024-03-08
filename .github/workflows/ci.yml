@@ -30,7 +30,8 @@ jobs:
       - run: pip install requests
       - run: python createbib.py
 
-      - run: apt-get install pandoc
+      - name: install pandoc
+          uses: apt install pandoc
       - run: pandoc --citeproc bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
 
       - name: Setup Pages
