@@ -33,7 +33,7 @@ jobs:
       - uses: docker://pandoc/core:2.9 
         name: Get Pandoc and generate bib
         with:
-          args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
+          args: --citeproc bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
