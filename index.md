@@ -32,7 +32,7 @@ I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contri
 
 # Publications
 
-- To be published in Journal of High Energy Physics (Internally referred to as EXO-22-015), “*Search for Emerging Jets with full Run 2 data*” (2024)
+<!-- - To be published in Journal of High Energy Physics (Internally referred to as EXO-22-015), “*Search for Emerging Jets with full Run 2 data*” (2024) -->
   
 {%include myPubs.md %}
 
