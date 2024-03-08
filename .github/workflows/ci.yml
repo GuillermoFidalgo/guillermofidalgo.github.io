@@ -30,7 +30,7 @@ jobs:
       - run: pip install requests
       - run: python createbib.py
 
-      - uses: docker://pandoc/core:2.9 
+      - uses: docker://pandoc/latex:2.9
         name: Get Pandoc and generate bib
         with:
           args: --citeproc bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
