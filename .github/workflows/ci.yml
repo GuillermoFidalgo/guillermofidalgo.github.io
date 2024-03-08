@@ -32,7 +32,8 @@ jobs:
 
       - name: install pandoc
         uses: docker://pandoc/core:2.9
-      - run: pandoc --help
+          with: 
+            args: --help
 
       - run: pandoc --citeproc bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
 
