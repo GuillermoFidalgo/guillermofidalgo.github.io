@@ -13,6 +13,7 @@ layout: home
 </center>
 
 <br>
+
 # About me
 
 My name is Guillermo Fidalgo and I'm currently pursuing a Masters in Experimental High Energy Physics (CMS Experiment) at University of Puerto Rico Mayagüez [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards. 

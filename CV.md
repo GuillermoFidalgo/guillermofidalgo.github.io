@@ -1,4 +1,4 @@
 --- 
-title : My CV
+title : CV
 permalink : "assets/pdfs/GF-CV.pdf"
 ---
