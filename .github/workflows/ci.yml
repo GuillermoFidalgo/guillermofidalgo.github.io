@@ -31,11 +31,9 @@ jobs:
       - run: python createbib.py
 
       - name: install pandoc
-        uses: docker://pandoc/core:2.9
+        uses: docker://pandoc/core:3.1
         with: 
-          args: --help
-
-      - run: pandoc --citeproc bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
+          args: --bibliography=bibfile.bib -t markdown_strict --csl american-physics-society.csl -o includes/myPubs.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
