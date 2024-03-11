@@ -1,3 +1,10 @@
+# Badges
+
+[![Deploy site](https://github.com/GuillermoFidalgo/guillermofidalgo.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/GuillermoFidalgo/guillermofidalgo.github.io/actions/workflows/ci.yml)
+
+
+
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
