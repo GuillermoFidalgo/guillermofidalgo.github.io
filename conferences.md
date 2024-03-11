@@ -1,4 +1,4 @@
---- 
+---
 title: Talks at International/National conferences
 permalink: /conf_talks/
 ---
@@ -9,7 +9,7 @@ permalink: /conf_talks/
 {% assign date_ord = talk.date | date_to_string: "ordinal", "US"  %}
 
 {% if talk.title != "" %}
-1. [*__{{talk.title}}__*]({{talk.url|relative_url}}) at {{talk.location}} - {{date_ord}} 
+1. [*__{{talk.title}}__*]({{talk.url|relative_url}}) at {{talk.location}} - {{date_ord}}
 {% endif %}
 
 {% endfor %}
