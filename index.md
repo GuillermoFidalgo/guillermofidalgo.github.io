@@ -39,17 +39,20 @@ I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contri
 
 # Research Activities
 
-1.  **Emerging Jets Analysis (Master Thesis, work in progress)**
-    Emerging Jets is the signature of the decay of dark matter particles. According to P. Schwaller
+1.  **Trigger Studies for Emerging Jets Analysis and Machine Learning for Tracker DQM at CMS ([Master Thesis](https://github.com/GuillermoFidalgo/master-thesis/releases))**
 
-    > EMJ signatures are smoking guns for models with a composite dark sector where a parton shower in the dark sector is followed by displaced decays of dark pions back to SM jets.
+    Made trigger efficiency studies for the signal and signal-free region of the analysis. Also worked to develop ML tools that assist DQM shifters in the data certification workflow.
 
 2.  **Summer REU in CU Pathways to Physics Program, 2021**
+
     Interned at the University of Colorado Boulder "Pathways to CU Physics" program under mentorship of Prof. Keith Ulmer. Worked on developing a new "High Level Trigger" to identify events that may contain signature of decays of dark matter particles known as "Emerging Jets".
     *   [Final report]({{site.baseurl}}/assets/pdfs/CU_Pathways_Final_Report.pdf)
     *   [Ulmer lab](https://www.colorado.edu/program/pathways-to-cu-physics/ulmer-lab)
     *   [Student highlight](https://www.colorado.edu/physics-jila-reu/research/new-trigger-studies-emerging-jets-cms-experiment)
+
+
 3.  **Research Semester abroad at CERN, Spring 2018**
+
     Worked under the "University of Michigan-CERN Research Semester Program" on applying Machine Learning in HCAL DQM (Hadron Calorimeter Data Quality Monitoring). This work formed basis of my undergrad thesis under UPRM COOP program titled “Using Machine Learning Techniques for Data Quality Monitoring at CMS Experiment".
     *   [Final report]({{site.baseurl}}/assets/pdfs/Biblatex_version_main.pdf)
     *   Presentation [\[Agenda\]](https://indico.cern.ch/event/699240/#6-machine-learning-for-data-qu) [\[PDF\]](https://indico.cern.ch/event/699240/contributions/2867949/attachments/1616957/2571105/Machine_Learning_-_CERN_proyect_1.pdf) (March 15 2018)
