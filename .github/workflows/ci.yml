@@ -36,7 +36,7 @@ jobs:
           args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o _includes/myPubs.md
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
