@@ -52,7 +52,7 @@ jobs:
     name: Deploy Site
     needs: build
     runs-on: ubuntu-latest
-    
+
     if: github.event_name != 'pull_request'
 
     environment:
