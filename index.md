@@ -30,7 +30,7 @@ Recently, I've participated and won a Machine Learning Hackathon organized by Lo
 I'm also working on an analysis looking for physics beyond the Standard Model (BSM) studying the performance of the "High Level Trigger" used to identify events that may contain signature of decays of dark matter particles to what are known as "Emerging Jets". This work is soon to be published.
 I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contributed papers.
 
-# Publications
+# Selected Publications
 
 <!-- - To be published in Journal of High Energy Physics (Internally referred to as EXO-22-015), “*Search for Emerging Jets with full Run 2 data*” (2024) -->
 
