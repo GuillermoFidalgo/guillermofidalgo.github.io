@@ -33,7 +33,7 @@ jobs:
       - name: install pandoc
         uses: docker://pandoc/core:3.1
         with:
-          args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o _includes/myPubs.md
+          args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o _includes/allPubs.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
