@@ -5,7 +5,7 @@ WORKDIR /home
 
 RUN bundle add logger &&\
     bundler install && \
-    bundle update 
+    bundle update
 
 RUN bundle install
 
