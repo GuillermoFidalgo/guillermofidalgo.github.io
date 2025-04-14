@@ -5,9 +5,10 @@ WORKDIR /home
 
 RUN bundle add logger &&\
     bundler install && \
-    bundle update
+    gem install dnsruby csv logger faraday faraday-retry && \
+    bundle update 
 
-RUN bundle install
+RUN bundler install
 
 EXPOSE 4000
 
