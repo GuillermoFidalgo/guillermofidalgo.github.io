@@ -7,10 +7,10 @@ COPY Gemfile ./
 
 RUN gem install jekyll bundler && \
     bundle add logger &&\
-    bundler install 
-    
+    bundler install
+
  EXPOSE 4000
-    
+
 CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
-    
+
     # gem install dnsruby csv logger faraday faraday-retry && \
