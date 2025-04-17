@@ -1,7 +1,7 @@
 <span class="csl-left-margin">\[1\]
 </span><span class="csl-right-inline">A. Hayrapetyan et al.,
 *[<span class="nocase">Search for new physics with emerging jets in
-proton-proton collisions at $\sqrt{s}$ = 13
+proton-proton collisions at $$\sqrt{s}$$ = 13
 TeV</span>](https://arxiv.org/abs/2403.01556)*, (2024).</span>
 
 <span class="csl-left-margin">\[2\]

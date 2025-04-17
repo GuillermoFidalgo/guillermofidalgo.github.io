@@ -4,4 +4,4 @@ title: Publications
 permalink: /Publications/
 ---
 
-{%include allPubs.md%}
+{%include allPubs.md %}
