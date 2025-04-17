@@ -24,3 +24,12 @@ repos:
   rev: "0.8.1"
   hooks:
     - id: nbstripout
+
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.4.1
+  hooks:
+  - id: codespell
+    args: ["--skip","bibfile.bib"]
+
+ci:
+  autoupdate_commit_msg: 'chore: update pre-commit hooks'
