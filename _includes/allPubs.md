@@ -53,5 +53,3 @@ Open Science in HEP</span>](https://arxiv.org/abs/2203.08809)*, in
 </span><span class="csl-right-inline">A. M. Briceño, A. Goel, and G. A.
 F. Rodriguez, *[Teaching Python the Sustainable Way: Lessons Learned at
 HSF Training](https://doi.org/10.5281/zenodo.7115834)*, (2022).</span>
-
-
