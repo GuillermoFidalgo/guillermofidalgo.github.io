@@ -35,6 +35,8 @@ jobs:
         with:
           args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o _includes/allPubs.md
 
+      - run: python Fixbib.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
