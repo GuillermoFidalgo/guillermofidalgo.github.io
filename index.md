@@ -23,7 +23,7 @@ I have done several outreach activities with high school teachers and students i
 I've organized and mentored many workshops teaching at different academic levels from high school students to new HEP Postdocs on how to use basic software tools and do analysis.
 In 2019 I founded the [Scientific Software Club](https://sites.google.com/upr.edu/ssc-uprm/home?authuser=0) (SSC) at my university. This was formed at UPRM to bring together students interested in software related research projects. We have given around 5 workshops including topics : Bash, Git and Python.
 Most recently, I've mentored interns in the [U.S. CMS PURSUE](https://sites.google.com/upr.edu/uscms-pursue/) program to increase participation from underrepresented groups in HEP.
-Additionally I've also a facilitated the 2023 and 2024 CMS Data Analysis School at the LHC Physics Center at Fermilab (CMSDAS@LPC).
+Additionally I have also facilitated the 2023 and 2024 CMS Data Analysis School at the LHC Physics Center at Fermilab (CMSDAS@LPC).
 
 My current interest is Machine Learning (ML) and its applications. I am using ML to monitor the data quality of CMS Tracker and its future upgrade.
 Recently, I've participated and won a Machine Learning Hackathon organized by Lockheed Martin using Transfer Learning to make use of a previously [trained CNN](https://github.com/GuillermoFidalgo/ItDepends/tree/final) with the task to classify surface images from Mars Curiosity rover.
@@ -39,7 +39,7 @@ I have also authored the Snowmass2021 Community Engagement Frontier (CEF) contri
 
 # Research Activities
 
-1.  **Trigger Studies for Emerging Jets Analysis and Machine Learning for Tracker DQM at CMS ([Master Thesis](https://github.com/GuillermoFidalgo/master-thesis/releases))**
+1.  **Trigger Studies for Emerging Jets Analysis and Machine Learning for Tracker DQM at CMS ([Master Thesis](https://github.com/GuillermoFidalgo/master-thesis/releases/download/v2.2/main.pdf))**
 
     Made trigger efficiency studies for the signal and signal-free region of the analysis. Also worked to develop ML tools that assist DQM shifters in the data certification workflow.
 
