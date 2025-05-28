@@ -1,10 +1,33 @@
-name: Jekyll site CI
+name: Jekyll site CI with Docker
 
 on:
-  push:
-    branches: [ "main" ]
+  schedule:
+    - cron: '15 15 15 * *'
   pull_request:
-    branches: [ "main" ]
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
+# on:
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
 
 jobs:
   build:
