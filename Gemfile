@@ -31,7 +31,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
-gem "faraday"
+gem "faraday", "~> 2.13.0"
 gem "csv"
 gem "dnsruby"
 gem "logger"
+gem "connection_pool", "~> 2.5.0"
+gem "json", "~> 2.10.2"
