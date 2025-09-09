@@ -6,6 +6,7 @@ COPY Gemfile ./
 
 RUN apk add --no-cache build-base && \
     gem install jekyll bundler && \
+    gem install dnsruby csv logger faraday faraday-retry && \
     bundle install --jobs=4 --retry=3 && \
     apk del build-base
 
