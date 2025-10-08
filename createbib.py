@@ -1,6 +1,6 @@
 import requests
 
-url = "https://inspirehep.net/api/literature?sort=mostrecent&size=25&page=1&q=a Guillermo.Fidalgo.1&format=bibtex"
+url = "https://inspirehep.net/api/literature?sort=mostrecent&size=250&page=1&q=a Guillermo.Fidalgo.1&format=bibtex"
 inspire = requests.get(url).text
 
 zenodo = r"""
@@ -14,6 +14,6 @@ zenodo = r"""
   url          = {https://doi.org/10.5281/zenodo.7115834}
 }
 """
-with open("bibfile.bib", "w") as f:
+with open("bibfile.bib","w") as f:
     f.write(inspire)
     f.write(zenodo)
