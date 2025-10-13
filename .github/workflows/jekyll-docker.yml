@@ -54,12 +54,11 @@ jobs:
 
     - run: python Fixtex.py
 
-    - uses: xu-cheng/latex-action@v3
+    - uses: xu-cheng/latex-action@v4
       with:
-        # texlive_version: 2025
         latexmk_shell_escape: true
         work_in_root_file_dir: true
-        root_file: latex_files/texfile.tex
+        root_file: "./latex_files/texfile.tex"
         docker_image: texlive/texlive:latest
 
 
