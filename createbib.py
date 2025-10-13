@@ -14,6 +14,6 @@ zenodo = r"""
   url          = {https://doi.org/10.5281/zenodo.7115834}
 }
 """
-with open("bibfile.bib", "w") as f:
+with open("latex_files/bibfile.bib","w") as f:
     f.write(inspire)
     f.write(zenodo)

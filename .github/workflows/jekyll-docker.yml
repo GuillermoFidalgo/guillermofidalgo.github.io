@@ -43,15 +43,25 @@ jobs:
       with:
           python-version: '3.12'
 
+    - run: pip install Pygments
     - run: pip install requests
     - run: python createbib.py
 
     - name: install pandoc
       uses: docker://pandoc/core:3.1
       with:
-        args: -C bibfile.bib -t markdown_strict --csl american-physics-society.csl -o _includes/allPubs.md
+        args: -C latex_files/bibfile.bib --csl latex_files/american-physics-society.csl -o latex_files/texfile.tex
 
-    - run: python Fixbib.py
+    - run: python Fixtex.py
+
+    - uses: xu-cheng/latex-action@v3
+      with:
+        # texlive_version: 2025
+        latexmk_shell_escape: true
+        work_in_root_file_dir: true
+        root_file: latex_files/texfile.tex
+        docker_image: texlive/texlive:latest
+
 
     - name: Build the site in the jekyll/builder container
       run: |

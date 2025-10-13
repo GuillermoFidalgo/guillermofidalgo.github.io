@@ -7,3 +7,14 @@ Gemfile.lock
 .DS_Store
 .ruby-version
 .ipynb_checkpoints/
+
+
+# Tex files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.gz
+*.pdf
+*.tex
+*.bib
