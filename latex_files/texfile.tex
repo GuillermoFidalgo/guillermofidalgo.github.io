@@ -1,0 +1,319 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{0}{0}
+\bibitem[\citeproctext]{ref-CMS:2025tga}
+\CSLLeftMargin{{[}1{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2510.02580}{{Observation of long-range
+collective flow in OO and NeNe collisions and implications for nuclear
+structure studies}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025dbm}
+\CSLLeftMargin{{[}2{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2510.00118}{{Vector boson scattering
+and anomalous quartic couplings in final states with \(\ell\nu\)qq or
+\(\ell\ell\)qq plus jets using proton-proton collisions at \(\sqrt{s}\)
+= 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025eou}
+\CSLLeftMargin{{[}3{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2509.13635}{{Search for resonances
+decaying to an anomalous jet and a Higgs boson in proton-proton
+collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025iwa}
+\CSLLeftMargin{{[}4{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2509.13512}{{Measurements of ttW
+differential cross sections and the leptonic charge asymmetry at
+\(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025jjx}
+\CSLLeftMargin{{[}5{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2509.08626}{{Measurement of D\(^0\)
+meson photoproduction in ultraperipheral heavy ion collisions}}},
+(2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025fdx}
+\CSLLeftMargin{{[}6{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2509.07958}{{Model-independent
+measurement of the Higgs boson associated production with two jets and
+decaying to a pair of W bosons in proton-proton collisions at
+\(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025rxu}
+\CSLLeftMargin{{[}7{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2508.14988}{{Search for a Higgs boson
+produced in association with a charm quark and decaying to a W boson
+pair in proton-proton collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025ttk}
+\CSLLeftMargin{{[}8{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2508.13900}{{A general search for
+supersymmetric particles in scenarios with compressed mass spectra using
+proton-proton collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025qit}
+\CSLLeftMargin{{[}9{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2508.11494}{{Search for a new scalar
+resonance decaying to a Higgs boson and another new scalar particle in
+the final state with two bottom quarks and two photons in proton-proton
+collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025wqy}
+\CSLLeftMargin{{[}10{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2508.07512}{{Search for charged lepton
+flavor violating Z and Z' boson decays in proton-proton collisions at
+\(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025rtd}
+\CSLLeftMargin{{[}11{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2508.06363}{{Search for b hadron
+decays to long-lived particles in the CMS endcap muon detectors}}},
+(2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025byz}
+\CSLLeftMargin{{[}12{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2508.05820}{{First exclusive
+reconstruction of the B\(^{*+}\), B\(^{*0}\), and B\(^{*0}_\text{s}\)
+mesons and precise measurement of their masses}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025uux}
+\CSLLeftMargin{{[}13{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2507.17498}{{Probing the flavour
+structure of dimension-6 EFT operators in multilepton final states in
+proton-proton collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025hpa}
+\CSLLeftMargin{{[}14{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2507.17884}{{Search for resonant
+production of pairs of dijet resonances through broad mediators in
+proton-proton collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025afq}
+\CSLLeftMargin{{[}15{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2507.13469}{{Exploring small-angle
+emissions in charm quark jets in proton-proton collisions at
+\(\sqrt{s}\) = 5.02 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025eyd}
+\CSLLeftMargin{{[}16{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2507.07775}{{A method for correcting
+the substructure of multiprong jets using the Lund jet plane}}},
+(2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025dzq}
+\CSLLeftMargin{{[}17{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2507.05119}{{Search for heavy
+pseudoscalar and scalar bosons decaying to a top quark pair in
+proton-proton collisions at \(\sqrt{s}\) = 13 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025tlo}
+\CSLLeftMargin{{[}18{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2506.13565}{{Search for nonresonant
+new physics signals in high-mass dilepton events produced in association
+with b-tagged jets in proton-proton collisions at \(\sqrt{s}\) = 13
+TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025cvw}
+\CSLLeftMargin{{[}19{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2506.08826}{{Machine learning method
+for enforcing variable independence in background estimation with LHC
+data: ABCDisCoTEC}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025fpt}
+\CSLLeftMargin{{[}20{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2506.07944}{{Determination of the spin
+and parity of all-charm tetraquarks}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025dpp}
+\CSLLeftMargin{{[}21{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://arxiv.org/abs/2505.21206}{{Search for \(CP\)
+violation in events with top quarks and Z bosons at \(\sqrt{s}\) = 13
+and 13.6 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025hlu}
+\CSLLeftMargin{{[}22{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://doi.org/10.1103/6z3d-zjw4}{{Measurement of WWZ and
+ZH Production Cross Sections at s=13 and 13.6~TeV}}}, Phys. Rev. Lett.
+\textbf{135}, 091802 (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025fwn}
+\CSLLeftMargin{{[}23{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://doi.org/10.1007/JHEP09(2025)070}{{Measurements of
+inclusive and differential Higgs boson production cross sections at
+\(\sqrt{\text{s}}=13.6\) TeV in the H {\textrightarrow}
+{\(\gamma\)}{\(\gamma\)} decay channel}}}, JHEP \textbf{09}, 070
+(2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025jbv}
+\CSLLeftMargin{{[}24{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://doi.org/10.1007/JHEP07(2025)118}{{Search for jet
+quenching with dijets from high-multiplicity pPb collisions at
+\(\sqrt{{s}_{\text{NN}}}\) = 8.16 TeV}}}, JHEP \textbf{07}, 118 (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025lsm}
+\CSLLeftMargin{{[}25{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2504.05193}{{Observation of coherent
+\(\phi\)(1020) meson photoproduction in ultraperipheral PbPb collisions
+at \(\sqrt{s_\text{NN}}\) = 5.36 TeV}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025ugn}
+\CSLLeftMargin{{[}26{]} }%
+\CSLRightInline{{V. Chekhovsky et al.},
+\emph{\href{https://arxiv.org/abs/2504.02958}{{Combined effective field
+theory interpretation of Higgs boson, electroweak vector boson, top
+quark, and multi-jet measurements}}}, (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2025kzt}
+\CSLLeftMargin{{[}27{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://doi.org/10.1088/1361-6633/adf7d3}{{Observation of a
+pseudoscalar excess at the top quark pair production threshold}}}, Rept.
+Prog. Phys. \textbf{88}, 087801 (2025).}
+
+\bibitem[\citeproctext]{ref-CMS:2024gxp}
+\CSLLeftMargin{{[}28{]} }%
+\CSLRightInline{{A. Hayrapetyan et al.},
+\emph{\href{https://doi.org/10.1007/JHEP07(2024)142}{{Search for dark
+QCD with emerging jets in proton-proton collisions at \(\sqrt{s}\) = 13
+TeV}}}, JHEP \textbf{07}, 142 (2024).}
+
+\bibitem[\citeproctext]{ref-Malik:2022bdz}
+\CSLLeftMargin{{[}29{]} }%
+\CSLRightInline{S. Malik, A. Karadzhinova-Ferrer, J. Hogan, R. Bray, R.
+Kamalieddin, K. Flood, A. El-Zant, G. Fidalgo, D. Bruhwiler, and M.
+Bellis, \emph{\href{https://arxiv.org/abs/2203.11665}{{Facilitating
+Non-HEP Career Transition}}}, in \emph{{Snowmass 2021}} (2022).}
+
+\bibitem[\citeproctext]{ref-Bardeen:2022zwf}
+\CSLLeftMargin{{[}30{]} }%
+\CSLRightInline{{M. G. Bardeen et al.},
+\emph{\href{https://arxiv.org/abs/2203.10953}{{Particle Physics Outreach
+to K-12 Schools and Opportunities in Undergraduate Education}}},
+(2022).}
+
+\bibitem[\citeproctext]{ref-Malik:2022rgw}
+\CSLLeftMargin{{[}31{]} }%
+\CSLRightInline{{S. Malik et al.},
+\emph{\href{https://arxiv.org/abs/2203.08809}{{Broadening the scope of
+Education, Career and Open Science in HEP}}}, in \emph{{Snowmass 2021}}
+(2022).}
+
+\bibitem[\citeproctext]{ref-alexander_moreno_briceno_2022_7115834}
+\CSLLeftMargin{{[}32{]} }%
+\CSLRightInline{A. M. Briceño, A. Goel, and G. A. F. Rodriguez,
+\emph{\href{https://doi.org/10.5281/zenodo.7115834}{Teaching Python the
+Sustainable Way: Lessons Learned at HSF Training}}, (2022).}
+
+\end{CSLReferences}
+
+\end{document}
