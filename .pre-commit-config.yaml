@@ -29,7 +29,7 @@ repos:
   rev: v2.4.1
   hooks:
   - id: codespell
-    args: ["--skip","bibfile.bib"]
+    args: ["--skip","latex_files/bibfile.bib"]
 
 ci:
   autoupdate_commit_msg: 'chore: update pre-commit hooks'
