@@ -6,31 +6,32 @@ text = r"""
 \maketitle
 """
 
+characters = {
+    "ψ": r"\psi",
+    "ν": r"\nu",
+    "γ": r"\gamma",
+    "τ": r"\tau",
+    "μ": r"\mu",
+}
+# nitems = len(characters)
+
 
 def fixbib(data):
     for id, line in enumerate(data):
-        if "ν" in line:
-            line = line.replace("ν", r"\nu")
-            print(f'Fixed line {id} with "{line}" ')
-            data[id] = line
-
-        # if r"\author" in line:
-        #     line = line.replace(r'\author{}',r'\author{Guillermo Fidalgo}')
+        # if "ν" in line :
+        #     line = line.replace("ν",r"\nu")
         #     print(f'Fixed line {id} with "{line}" ')
         #     data[id] = line
 
-        # if r"\date" in line:
-        #     line = line.replace(r"\date{}",r"\date{\today}")
-        #     print(f'Fixed line {id} with "{line}" ')
-        #     data[id] = line
-
-        # if r'\begin{document}' in line:
-        #     line = line.replace(r"\begin{document}",r"\begin{document} \maketitle")
-        #     print(f'Fixed line {id} with "{line}" ')
-        #     data[id] = line
         if r"\author{}" in line:
             data[id : id + 5] = text
             print("added author, title, date and maketitle in lines", id, id + 5)
+
+        for k, v in characters.items():
+            if k in line:
+                line = line.replace(k, v)
+                print(f'Fixed line {id} with "{line}" ')
+                data[id] = line
 
 
 with open("latex_files/texfile.tex") as f:
