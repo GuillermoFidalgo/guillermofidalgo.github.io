@@ -30,9 +30,9 @@ def fixbib(data):
         for k, v in characters.items():
             if k in line:
                 line1 = line.replace(k, v)
-                print(f'Fixed line {id} from "{line:^30}"\n to \n"{line1:^30}" ')
+                print(f'Fixed line {id} from \n"{line:^30}"\n to \n"{line1:^30}" ')
                 data[id] = line1
-                line=line1
+                line = line1
 
 
 with open("latex_files/texfile.tex") as f:
