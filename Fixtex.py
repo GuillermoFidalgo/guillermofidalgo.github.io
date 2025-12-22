@@ -18,7 +18,6 @@ characters = {
 
 def fixbib(data):
     for id, line in enumerate(data):
-
         if r"\author{}" in line:
             data[id : id + 5] = text
             print("added author, title, date and maketitle in lines", id, id + 5)
