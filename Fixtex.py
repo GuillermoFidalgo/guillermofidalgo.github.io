@@ -12,6 +12,7 @@ characters = {
     "γ": r"\gamma",
     "τ": r"\tau",
     "μ": r"\mu",
+    "\u2006": r"\~",
 }
 # nitems = len(characters)
 
