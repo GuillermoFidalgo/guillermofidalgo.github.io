@@ -2,7 +2,7 @@ name: Jekyll site CI with Docker
 
 on:
   schedule:
-    - cron: '45 13 * * *'
+    - cron: '45 13 */5 * *'
   pull_request:
   push:
     branches:
