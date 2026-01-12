@@ -1,4 +1,3 @@
-
 text = r"""
 \author{Guillermo Fidalgo}
 \date{\today}
@@ -13,7 +12,7 @@ characters = {
     "γ": r"\gamma",
     "τ": r"\tau",
     "μ": r"\mu",
-    "\u2006": r" ~ "
+    "\u2006": r" ~ ",
 }
 # nitems = len(characters)
 
