@@ -13,7 +13,7 @@ characters = {
     "τ": r"\tau",
     "μ": r"\mu",
     "\u2006": r" ~ ",
-    "\u03A5": r"\upsilon"
+    "\u03a5": r"\Upsilon",
 }
 # nitems = len(characters)
 
