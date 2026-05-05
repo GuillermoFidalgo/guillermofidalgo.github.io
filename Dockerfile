@@ -1,14 +1,14 @@
-FROM ruby:3.4.2-alpine
+FROM ruby:3.4.2-slim-bookworm
 
 WORKDIR /home
 
 COPY Gemfile ./
 
-RUN apk add --no-cache build-base && \
+RUN apt-get update && apt-get install -y build-essential && \
     gem install jekyll bundler && \
     gem install dnsruby csv logger faraday faraday-retry && \
     bundle install --jobs=4 --retry=3 && \
-    apk del build-base
+    apt-get remove -y build-essential && apt-get autoremove -y && apt-get clean
 
 EXPOSE 4000
 

@@ -6,9 +6,10 @@ layout: home
 ---
 <!-- <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; min-width: 100px ;max-width: 200px; width: 80%;" > -->
 <center>
-  <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot"
+  <!-- <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" -->
+  <img src="https://physics.ua.edu/wp-content/uploads/2024/08/guillermo_fidalgo-300x300.jpg" alt="Guillermo Fidalgo headshot"
   style="border-radius: 50%;
-   height: 200px;"
+   height: 300px;"
    >
 </center>
 
@@ -16,7 +17,9 @@ layout: home
 
 # About me
 
-My name is Guillermo Fidalgo and I'm currently pursuing a Masters in Experimental High Energy Physics (CMS Experiment) at University of Puerto Rico Mayagüez [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards.
+My name is Guillermo Fidalgo and I'm currently pursuing a PhD in Experimental High Energy Physics with the CMS Experiment at University of Alabama under the mentorship of professor Emanuele Usai. I speak fluent english and spanish. I have a major in Physics and a Minor in applied mathematics. I like watching Netflix, playing Basketball, video games and billiards.
+
+ <!-- [(UPRM)](https://www.uprm.edu/portada/) under the mentorship of professor [Sudhir Malik](http://charma.uprm.edu/~malik/). -->
 
 I'm a lifelong learner and I'm also passionate about software training, education and outreach. I am in the training team of [IRIS-HEP](https://iris-hep.org/ssc.html), [HSF](https://hepsoftwarefoundation.org/workinggroups/training.html), and a certified instructor of [The Carpentries](https://carpentries.org/).
 I have done several outreach activities with high school teachers and students in Puerto Rico.

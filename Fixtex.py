@@ -7,13 +7,14 @@ text = r"""
 """
 
 characters = {
+    "η": r"\eta",
     "ψ": r"\psi",
     "ν": r"\nu",
     "γ": r"\gamma",
     "τ": r"\tau",
     "μ": r"\mu",
     "\u2006": r" ~ ",
-    "\u03a5": r"\Upsilon",
+    "Υ": r"\Upsilon",
 }
 # nitems = len(characters)
 
