@@ -11,7 +11,7 @@ email: gafidalgo@crimson.ua.edu
 description: Here you can learn more about me and my professional interests.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: guillo99
+# twitter_username: guillo99
 github_username:  GuillermoFidalgo
 linkedin_username: guillermo-fidalgo
 orcid: 0000-0001-8605-9772
