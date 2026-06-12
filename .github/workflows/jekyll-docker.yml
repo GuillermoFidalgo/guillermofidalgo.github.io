@@ -22,13 +22,6 @@ permissions:
   pages: write
   id-token: write
 
-
-# on:
-#   push:
-#     branches: [ "main" ]
-#   pull_request:
-#     branches: [ "main" ]
-
 jobs:
   build:
 
@@ -44,8 +37,10 @@ jobs:
           python-version: '3.12'
 
     - run: pip install Pygments
-    - run: pip install requests
+    - run: pip install requests pandas 
     - run: python createbib.py
+    - run: python mentored.py
+    - run: python conferences.py
 
     - name: install pandoc
       uses: docker://pandoc/core:3.1
