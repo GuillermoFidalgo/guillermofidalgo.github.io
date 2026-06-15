@@ -37,7 +37,7 @@ jobs:
           python-version: '3.12'
 
     - run: pip install Pygments
-    - run: pip install requests pandas 
+    - run: pip install requests pandas
     - run: python createbib.py
     - run: python mentored.py
     - run: python conferences.py
