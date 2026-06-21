@@ -18,3 +18,4 @@ Gemfile.lock
 *.pdf
 *.tex
 *.bib
+sorted*.json
