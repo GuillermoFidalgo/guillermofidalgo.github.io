@@ -6,8 +6,8 @@ layout: home
 ---
 <!-- <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" style="border-radius:50%; min-width: 100px ;max-width: 200px; width: 80%;" > -->
 <center>
-  <!-- <img src="{{site.baseurl}}/assets/img/Guillermo-Grad.png" alt="Guillermo Fidalgo heashot" -->
-  <img src="https://physics.ua.edu/wp-content/uploads/2024/08/guillermo_fidalgo-300x300.jpg" alt="Guillermo Fidalgo headshot"
+  <img src="{{site.baseurl}}/assets/img/guillermo-UA.jpg" alt="Guillermo Fidalgo heashot"
+  <!-- <img src="https://physics.ua.edu/wp-content/uploads/2024/08/guillermo_fidalgo-300x300.jpg" alt="Guillermo Fidalgo headshot" -->
   style="border-radius: 50%;
    height: 300px;"
    >
