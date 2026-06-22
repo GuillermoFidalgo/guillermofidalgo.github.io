@@ -19,3 +19,4 @@ Gemfile.lock
 *.tex
 *.bib
 sorted*.json
+latex_files/
