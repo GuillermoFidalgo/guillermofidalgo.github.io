@@ -36,8 +36,7 @@ jobs:
       with:
           python-version: '3.12'
 
-    - run: pip install Pygments
-    - run: pip install requests pandas
+    - run: pip install Pygments requests pandas
     - run: python createbib.py
     - run: python mentored.py
     - run: python conferences.py
@@ -47,6 +46,7 @@ jobs:
       with:
         args: -C --standalone latex_files/bibfile.bib --csl latex_files/american-physics-society.csl -o latex_files/texfile.tex
 
+    - run: chmod -R 777 latex_files
     - run: python Fixtex.py
 
     - uses: xu-cheng/latex-action@v4
