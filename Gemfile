@@ -30,10 +30,11 @@ gem "wdm", "~> 0.1.1", :platforms => [:windows]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "webrick", "~> 1.8"
-gem "faraday", "~> 2.13.0"
+gem "webrick"
+gem "faraday"
 gem "csv"
 gem "dnsruby"
 gem "logger"
-gem "connection_pool", "~> 2.5.0"
+gem "connection_pool"
 gem "json"
+gem "nokogiri"
