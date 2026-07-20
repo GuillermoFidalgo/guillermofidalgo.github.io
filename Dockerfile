@@ -6,7 +6,6 @@ COPY Gemfile ./
 
 RUN apt-get update && apt-get install -y build-essential && \
     gem install jekyll bundler && \
-    gem install dnsruby json csv logger faraday faraday-retry && \
     bundle install --jobs=4 --retry=3 && \
     apt-get autoremove -y && apt-get clean
 
