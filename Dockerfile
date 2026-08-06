@@ -6,8 +6,8 @@ COPY Gemfile /srv/jekyll
 
 RUN apt-get update && apt-get install -y build-essential  && \
     gem install jekyll bundler && \
-    bundle install --jobs=4 --retry=3 
-    # && \ 
+    bundle install --jobs=4 --retry=3
+    # && \
     # apt-get autoremove -y && apt-get clean
 
 EXPOSE 4000
