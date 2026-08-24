@@ -1,3 +1,4 @@
+
 text = r"""
 \usepackage{mathrsfs}
 \author{Guillermo Fidalgo}
@@ -16,6 +17,7 @@ characters = {
     "μ": r"\mu",
     "\u2006": r" ~ ",
     "Υ": r"\Upsilon",
+    "χ": r'\chi'
 }
 # nitems = len(characters)
 
