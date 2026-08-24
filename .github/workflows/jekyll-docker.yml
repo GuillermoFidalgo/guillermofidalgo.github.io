@@ -28,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
 
 
-    - uses: actions/setup-python@v6
+    - uses: actions/setup-python@v7
       name: "Setup Python"
       with:
           python-version: '3.14'
@@ -58,7 +58,7 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build --future"
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v5

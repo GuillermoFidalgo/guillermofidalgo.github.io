@@ -1,4 +1,5 @@
 text = r"""
+\usepackage{mathrsfs}
 \author{Guillermo Fidalgo}
 \date{\today}
 \title{Publication List}
