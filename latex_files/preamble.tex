@@ -1,0 +1,5 @@
+\usepackage{mathrsfs}
+% Safety net: let a bare \Upsilon (e.g. "{\Upsilon}(1S)" from INSPIRE)
+% compile in text mode as well as math mode.
+\let\oldUpsilon\Upsilon
+\renewcommand{\Upsilon}{\ensuremath{\oldUpsilon}}

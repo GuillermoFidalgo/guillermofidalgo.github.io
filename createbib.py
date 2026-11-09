@@ -1,4 +1,25 @@
+import re
 import requests, time
+
+GREEK_MACROS = (
+    "alpha|beta|gamma|delta|epsilon|eta|theta|lambda|mu|nu|pi|rho|sigma|tau|"
+    "phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Pi|Sigma|Upsilon|Phi|Psi|Omega"
+)
+
+
+def sanitize_bibtex(bib: str) -> str:
+    """Fix INSPIRE records whose math is not in math mode, before pandoc runs."""
+    # {\Upsilon}(1S) -> {$\Upsilon$}(1S)
+    # The lookbehind skips braces that are a macro argument, e.g. \ensuremath{\Upsilon}
+    bib = re.sub(rf"(?<![A-Za-z])\{{\\({GREEK_MACROS})\}}", r"{$\\\1$}", bib)
+    # INSPIRE sometimes drops the sqrt: "at s=13{\,}{\,}TeV" -> "at $\sqrt{s}=13$ TeV"
+    bib = re.sub(
+        r"(?<![\w$\\{])s=(\d+(?:\.\d+)?)(?:\{\\,\})*\s*TeV",
+        r"$\\sqrt{s}=\1$ TeV",
+        bib,
+    )
+    return bib
+
 
 pages = [1, 2, 3]
 all_bibtex = ""
@@ -28,6 +49,7 @@ zenodo = r"""
 
 # Write everything out to a .bib file
 if all_bibtex:
+    all_bibtex = sanitize_bibtex(all_bibtex)
     with open("latex_files/bibfile.bib", "w", encoding="utf-8") as f:
         f.write(all_bibtex)
         f.write(zenodo)
