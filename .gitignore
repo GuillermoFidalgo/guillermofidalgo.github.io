@@ -17,6 +17,7 @@ Gemfile.lock
 *.gz
 *.pdf
 *.tex
+!latex_files/preamble.tex
 *.bib
 
 # Other files

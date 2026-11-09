@@ -1,0 +1,13 @@
+# Shared pandoc options for building the publication list.
+# Used by both the GitHub Action and the notebook:
+#   pandoc -d latex_files/pandoc-defaults.yaml
+input-files:
+  - latex_files/bibfile.bib
+output-file: latex_files/texfile.tex
+standalone: true
+citeproc: true
+csl: latex_files/american-physics-society.csl
+metadata-files:
+  - latex_files/metadata.yaml
+include-in-header:
+  - latex_files/preamble.tex

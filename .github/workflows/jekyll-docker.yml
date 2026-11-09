@@ -42,16 +42,24 @@ jobs:
     - name: install pandoc
       uses: docker://pandoc/core:3.1
       with:
-        args: -C --standalone latex_files/bibfile.bib --csl latex_files/american-physics-society.csl -o latex_files/texfile.tex
+        args: -d latex_files/pandoc-defaults.yaml
 
     - run: python Fixtex.py
 
     - uses: xu-cheng/latex-action@v4
       with:
-        latexmk_shell_escape: true
         work_in_root_file_dir: true
         root_file: "./latex_files/texfile.tex"
         docker_image: texlive/texlive:latest-small
+
+    - name: Upload LaTeX log on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: latex-log
+        path: |
+          latex_files/*.log
+          latex_files/texfile.tex
 
 
     - name: Build the site in the jekyll/builder container
