@@ -1,8 +1,14 @@
 ---
-title: Software Training Workshops Mentored
-permalink: /mentored/
+layout: page
+title: Outreach and Education
+permalink: /outreach/
 ---
 
+Beyond research, I spend a good part of my time teaching, mentoring and serving the science community, with a particular focus on students and teachers in Puerto Rico and on training the next generation of HEP researchers.
+
+## Software Training Workshops
+
+Workshops I have taught or mentored on the software tools used in high-energy physics analysis (e.g. Python, Git, machine learning and the HEP software ecosystem), aimed at audiences ranging from students to new postdocs.
 
 {% for talk in site.data.sorted_mentored %}
 {% assign date_ord = talk.date | date_to_string: "ordinal", "US" %}
@@ -12,9 +18,9 @@ permalink: /mentored/
 {% endfor %}
 
 
-## Education and Outreach activities organized
+## Education and Outreach Activities Organized
 
-I have developed, organized and mentored the following education and outreach activities with high school teachers and students Puerto Rico.
+I have developed, organized and mentored the following education and outreach activities with high school teachers and students in Puerto Rico.
 
 1. [**"Machine Learning Basics"**](https://indico.cern.ch/event/1353933/) (CROEM, Mayagüez, Puerto Rico) - Nov 28, 2023
 1. [**"Python Programming Series: Machine Learning"**](https://indico.cern.ch/event/1353942/) (UPRM, Puerto Rico) -  Nov 17, 2023
@@ -32,3 +38,9 @@ I have developed, organized and mentored the following education and outreach ac
 13. [**"Introduction to python programming for Undergrads"**](https://indico.cern.ch/event/891702/timetable/?view=standard) (UPRM, Puerto Rico) - 22 February, 2020 - Workshop intended to teach local Physics students with python coding language with HEP applications.
 14. [**"STEM Teachers Workshop"**](https://indico.cern.ch/event/817539/) (UPRM, Puerto Rico) - 3-4 June, 2019
     Workshop dedicated to enabling high school STEM teachers with coding.
+
+## Judging and Service
+
+Service to the science education community in Puerto Rico.
+
+1. **Judge**, Fall Symposium of the Puerto Rico Junior Academy of Sciences ([PR-JAS](https://prjas.alcancepr.com/home)) (Virtual) - Nov 14, 2026. PR-JAS is the Puerto Rico chapter of the Junior Academy of Science, which gives local students a venue to present their research.
