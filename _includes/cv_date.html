@@ -1,0 +1,31 @@
+{%- comment -%}
+  Formats dates from _data/cv.yml, matching cv/build_cv.py.
+  Params: date, end, period (period, when given, is shown as-is).
+    "2022" -> 2022   "2021-01" -> Jan 2021   "2022-07-19" -> Jul 19, 2022
+    Ranges: Jul 19–23, 2022 / Sep 28–Oct 1, 2022 / Jan–May 2021
+  A missing date prints nothing.
+{%- endcomment -%}
+{%- if include.period -%}
+  {{- include.period -}}
+{%- else -%}
+  {%- assign cvdate_d = include.date | default: "" | append: "" -%}
+  {%- assign cvdate_e = include.end | default: "" | append: "" -%}
+  {%- assign cvdate_dy = cvdate_d | slice: 0, 4 -%}{%- assign cvdate_ey = cvdate_e | slice: 0, 4 -%}
+  {%- assign cvdate_dm = cvdate_d | slice: 0, 7 -%}{%- assign cvdate_em = cvdate_e | slice: 0, 7 -%}
+  {%- if cvdate_d.size == 10 -%}{%- assign cvdate_dfull = cvdate_d | date: "%b %-d, %Y" -%}
+  {%- elsif cvdate_d.size == 7 -%}{%- assign cvdate_dfull = cvdate_d | append: "-01" | date: "%b %Y" -%}
+  {%- else -%}{%- assign cvdate_dfull = cvdate_d -%}{%- endif -%}
+  {%- if cvdate_e.size == 10 -%}{%- assign cvdate_efull = cvdate_e | date: "%b %-d, %Y" -%}
+  {%- elsif cvdate_e.size == 7 -%}{%- assign cvdate_efull = cvdate_e | append: "-01" | date: "%b %Y" -%}
+  {%- else -%}{%- assign cvdate_efull = cvdate_e -%}{%- endif -%}
+  {%- if cvdate_e == "" -%}
+    {{- cvdate_dfull -}}
+  {%- elsif cvdate_d.size == 10 and cvdate_e.size == 10 and cvdate_dy == cvdate_ey -%}
+    {%- if cvdate_dm == cvdate_em -%}{{- cvdate_d | date: "%b %-d" -}}–{{- cvdate_e | date: "%-d, %Y" -}}
+    {%- else -%}{{- cvdate_d | date: "%b %-d" -}}–{{- cvdate_efull -}}{%- endif -%}
+  {%- elsif cvdate_d.size == 7 and cvdate_e.size == 7 and cvdate_dy == cvdate_ey -%}
+    {{- cvdate_d | append: "-01" | date: "%b" -}}–{{- cvdate_efull -}}
+  {%- else -%}
+    {{- cvdate_dfull -}}–{{- cvdate_efull -}}
+  {%- endif -%}
+{%- endif -%}

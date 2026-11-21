@@ -1,0 +1,539 @@
+# =============================================================================
+# CV / Resume — single source of truth
+# =============================================================================
+# Edit ONLY this file, then run:   python cv/build_cv.py
+# That regenerates:
+#   cv/CV.md        full academic CV (everything below)
+#   cv/resume.md    short resume (only entries marked `resume: true`)
+#   cv/resume.json  JSON Resume export (https://jsonresume.org/schema) for
+#                   other tools, themes and job portals
+#
+# Because it lives in _data/, Jekyll can also read it as `site.data.cv`.
+#
+# Conventions
+#   - Dates are quoted strings: "2026", "2026-03" or "2026-03-19".
+#     If a date is unknown, leave it out; the entry is listed without one.
+#   - Positions (education, research, leadership) use start / end, with
+#     end: "present" for ongoing ones.
+#   - Events (talks, workshops, outreach, service) use date, plus end for
+#     multi-day events (date: "2022-07-19", end: "2022-07-23").
+#   - Optional `period: "Summer 2021"` replaces the displayed date text;
+#     start / end are still used for sorting and the JSON export.
+#   - Add `resume: true` to any entry (or highlight) you want in the resume.
+#   - Keep text plain (no Markdown); put links in `url` / `links`.
+#     Links to files on this site can be site-relative ("/assets/pdfs/x.pdf").
+#   - Lines marked "TODO" are details still missing.
+# =============================================================================
+
+basics:
+  name: "Guillermo A. Fidalgo Rodríguez"
+  label: "PhD Student in Experimental Particle Physics, CMS Experiment"
+  email: "gafidalgo@crimson.ua.edu"
+  url: "https://guillermofidalgo.github.io/"
+  location:
+    city: "Tuscaloosa"
+    region: "AL"
+    country: "USA"
+  profiles:
+    - network: "GitHub"
+      username: "GuillermoFidalgo"
+      url: "https://github.com/GuillermoFidalgo"
+    - network: "LinkedIn"
+      username: "guillermo-fidalgo"
+      url: "https://www.linkedin.com/in/guillermo-fidalgo"
+    - network: "ORCID"
+      username: "0000-0001-8605-9772"
+      url: "https://orcid.org/0000-0001-8605-9772"
+    - network: "INSPIRE-HEP"
+      username: "Guillermo.Fidalgo.1"
+      url: "https://inspirehep.net/authors?q=a%20Guillermo.Fidalgo.1"
+  summary:
+    # Long form, used in the CV.
+    cv: >-
+      PhD student in experimental high-energy physics at the University of
+      Alabama and member of the CMS Collaboration at CERN's Large Hadron
+      Collider, advised by Dr. Emanuele Usai. My research covers the search
+      for four-top-quark production in Run 3, testing and data-quality
+      monitoring for the CMS High Granularity Calorimeter (HGCAL) upgrade, and
+      machine learning for detector data-quality monitoring. Alongside
+      research, I train physicists in research software: I am on the training
+      teams of HSF and IRIS-HEP, a certified Carpentries instructor, a
+      facilitator at the CMS Data Analysis School, and I have taught, mentored
+      or organized more than 25 workshops and courses for audiences from high
+      school students and STEM teachers in Puerto Rico to HEP postdocs.
+    # Short form, used in the resume and JSON export.
+    resume: >-
+      Experimental particle physicist (PhD student, CMS/CERN) who builds Python
+      analysis frameworks, machine-learning tools for detector monitoring, and
+      hardware test systems. Experienced teacher of research software (HSF,
+      IRIS-HEP, The Carpentries) and bilingual in English and Spanish.
+
+education:
+  - institution: "University of Alabama"
+    area: "Physics"
+    degree: "Ph.D."
+    location: "Tuscaloosa, AL"
+    start: "2024"
+    end: "present"
+    advisor: "Dr. Emanuele Usai"
+    resume: true
+  - institution: "University of Puerto Rico, Mayagüez (UPRM)"
+    area: "Physics"
+    degree: "M.S."
+    location: "Mayagüez, PR"
+    start: "2020"
+    end: "2024"
+    advisor: "Dr. Sudhir Malik"
+    thesis:
+      title: "Trigger Studies for Emerging Jets Analysis and Machine Learning for Tracker DQM at CMS"
+      url: "https://github.com/GuillermoFidalgo/master-thesis/releases/download/v2.2/main.pdf"
+    resume: true
+  - institution: "University of Puerto Rico, Mayagüez (UPRM)"
+    area: "Physics"
+    degree: "B.S."
+    minor: "Applied Mathematics"
+    location: "Mayagüez, PR"
+    start: "2014"
+    end: "2020"
+    thesis:
+      title: "Using Machine Learning Techniques for Data Quality Monitoring at CMS Experiment"
+      note: "Undergraduate thesis, UPRM COOP program"
+      url: "/assets/pdfs/Biblatex_version_main.pdf"
+    resume: true
+
+# Research positions. Rendered as "Research Experience" in the CV and as
+# work experience in the resume / JSON export.
+research:
+  - position: "Graduate Research Assistant"
+    organization: "University of Alabama, CMS Experiment at CERN"
+    location: "Tuscaloosa, AL"
+    start: "2024"
+    end: "present"
+    supervisor: "Dr. Emanuele Usai"
+    highlights:
+      - text: "Develop the analysis framework for the search for four-top-quark production in the single-lepton final state with CMS Run 3 data."
+        resume: true
+      - text: "Set up the Multi-Module Testing System (MMTS) used to test HGCAL hexaboards for the CMS Phase-2 upgrade."
+        resume: true
+      - text: "Contribute to data-quality monitoring (DQM) software for HGCAL."
+        resume: true
+      - text: "Co-author of a study on continual learning with masked autoencoders for data-quality monitoring (arXiv:2603.02369)."
+    resume: true
+
+  - position: "Graduate Research Assistant"
+    organization: "University of Puerto Rico, Mayagüez, CMS Experiment at CERN"
+    location: "Mayagüez, PR"
+    start: "2020"
+    end: "2024"
+    highlights:
+      - text: "Measured trigger efficiencies in the signal and signal-free regions of the CMS search for emerging jets with full Run 2 data (JHEP 07 (2024) 142)."
+        resume: true
+      - text: "Developed machine-learning tools that help DQM shifters certify CMS Tracker data, and studied their use for the Tracker upgrade."
+        resume: true
+    links:
+      - label: "Master's thesis"
+        url: "https://github.com/GuillermoFidalgo/master-thesis/releases/download/v2.2/main.pdf"
+    resume: true
+
+  - position: "Summer Research Intern (REU), Pathways to CU Physics"
+    organization: "University of Colorado Boulder"
+    location: "Boulder, CO"
+    start: "2021-06"  # final report is dated Aug 6, 2021
+    end: "2021-08"
+    period: "Summer 2021"
+    supervisor: "Dr. Keith Ulmer"
+    highlights:
+      - text: "Developed a new High Level Trigger path to select events with signatures of dark-matter decays to emerging jets."
+        resume: true
+    links:
+      - label: "Final report"
+        url: "/assets/pdfs/CU_Pathways_Final_Report.pdf"
+      - label: "Ulmer lab"
+        url: "https://www.colorado.edu/program/pathways-to-cu-physics/ulmer-lab"
+      - label: "Student highlight"
+        url: "https://www.colorado.edu/physics-jila-reu/research/new-trigger-studies-emerging-jets-cms-experiment"
+    resume: true
+
+  - position: "Visiting Undergraduate Researcher, University of Michigan–CERN Research Semester"
+    organization: "CERN"
+    location: "Geneva, Switzerland"
+    start: "2018-01"  # CERN talks on Indico: Mar 15, Apr 12, May 14, 2018
+    end: "2018-05"
+    period: "Spring 2018"
+    highlights:
+      - text: "Applied machine learning to data-quality monitoring of the CMS Hadron Calorimeter (HCAL); this became the basis of my undergraduate thesis."
+        resume: true
+      - text: "Presented the work three times at CERN (March 15, April 12 and May 14, 2018)."
+    links:
+      - label: "Final report"
+        url: "/assets/pdfs/Biblatex_version_main.pdf"
+      - label: "Talk, Mar 2018"
+        url: "https://indico.cern.ch/event/699240/contributions/2867949/attachments/1616957/2571105/Machine_Learning_-_CERN_proyect_1.pdf"
+      - label: "Talk, Apr 2018 (video)"
+        url: "https://cds.cern.ch/record/2313298"
+      - label: "Final talk, May 2018"
+        url: "https://indico.cern.ch/event/729259/contributions/3004138/attachments/1648378/2635295/Final_talk.pdf"
+    resume: true
+
+publications:
+  # Papers where I contributed directly (CMS Collaboration papers are
+  # summarized separately below).
+  selected:
+    - authors: "D. Julson, E. Reinhardt, A. Krutsylo, R. Sohal, G. Fidalgo, S. Gleyzer, and E. Usai"
+      title: "Continual Learning via Ensemble-Based Depth-Wise Masked Autoencoders for Data Quality Monitoring in High-Energy Physics"
+      venue: "arXiv:2603.02369 [hep-ex]"
+      date: "2026"
+      url: "https://arxiv.org/abs/2603.02369"
+      resume: true
+    - authors: "CMS Collaboration (A. Hayrapetyan et al.)"
+      title: "Search for new physics with emerging jets in proton-proton collisions at √s = 13 TeV"
+      venue: "JHEP 07 (2024) 142, arXiv:2403.01556"
+      date: "2024"
+      url: "https://doi.org/10.1007/JHEP07(2024)142"
+      note: "Contributed trigger studies."
+      resume: true
+    - authors: "A. Moreno Briceño, A. Goel, and G. A. Fidalgo Rodríguez"
+      title: "Teaching Python the Sustainable Way: Lessons Learned at HSF Training"
+      venue: "PyHEP 2022, Zenodo"
+      date: "2022"
+      url: "https://doi.org/10.5281/zenodo.7115834"
+      resume: true
+    - authors: "S. Malik et al."
+      title: "Broadening the Scope of Education, Career and Open Science in HEP"
+      venue: "Snowmass 2021, arXiv:2203.08809 [physics.ed-ph]"
+      date: "2022"
+      url: "https://arxiv.org/abs/2203.08809"
+    - authors: "M. G. Bardeen et al."
+      title: "Particle Physics Outreach to K-12 Schools and Opportunities in Undergraduate Education"
+      venue: "Snowmass 2021, arXiv:2203.10953 [physics.ed-ph]"
+      date: "2022"
+      url: "https://arxiv.org/abs/2203.10953"
+    - authors: "S. Malik, A. Karadzhinova-Ferrer, J. Hogan, R. Bray, R. Kamalieddin, K. Flood, A. El-Zant, G. Fidalgo, D. Bruhwiler, and M. Bellis"
+      title: "Facilitating Non-HEP Career Transition"
+      venue: "Snowmass 2021, arXiv:2203.11665 [physics.ed-ph]"
+      date: "2022"
+      url: "https://arxiv.org/abs/2203.11665"
+
+  # Not an author, but credited in the paper.
+  acknowledged:
+    - authors: "S. Malik et al."
+      title: "U.S. CMS PURSUE (Program for Undergraduate Research SUmmer Experience)"
+      venue: "arXiv:2209.10109 [physics.ed-ph]"
+      date: "2022"
+      url: "https://arxiv.org/abs/2209.10109"
+      note: "Acknowledged for tutoring interns in HEP software tools and for introducing HEP to a wider audience."
+
+  collaboration:
+    name: "CMS Collaboration"
+    # Update the count from INSPIRE now and then (createbib.py fetches the list).
+    summary: "Co-author of more than 130 CMS Collaboration publications (as of Aug 2026)."
+    url: "https://inspirehep.net/authors?q=a%20Guillermo.Fidalgo.1"
+    resume: true
+
+# Talks and posters at conferences and meetings.
+talks:
+  - title: "Four top quark production at Run 3 in the single-lepton final state with CMS"
+    event: "APS Global Physics Summit"
+    location: "Denver, CO"
+    date: "2026-03-19"
+    type: "talk"
+    url: "https://cms-mgt-conferences.web.cern.ch/conferences/pres_display.aspx?cid=4100&pid=32344"
+    resume: true
+  - title: "Trigger Development for Emerging Jet Analysis"
+    event: "56th Fermilab Annual Users Meeting"
+    location: "Fermilab, Batavia, IL"
+    date: "2023-06-28"
+    type: "poster"
+    url: "https://indico.fnal.gov/event/59656/contributions/268969/"
+    resume: true
+  - title: "HEP Software Training with HSF/IRIS-HEP"
+    event: "New Perspectives Meeting"
+    location: "Fermilab, Batavia, IL"
+    date: "2023-06-27"
+    type: "talk"
+    url: "https://indico.fnal.gov/event/59506/contributions/269987/"
+    resume: true
+  - title: "Teaching Python the Sustainable Way: Lessons Learned at HSF Training"
+    event: "PyHEP 2022 Workshop"
+    location: "Virtual"
+    date: "2022-09-12"
+    type: "talk"
+    url: "https://indico.cern.ch/event/1150631/contributions/5014278/"
+  - title: "PyROOT tutorial experience from SWC Workshop"
+    event: "12th ROOT Users' Workshop"
+    location: "Virtual"
+    date: "2022-05-10"  # The PDF CV said Sep 12, 2022; the workshop ran May 9-13, 2022
+    type: "talk"
+    url: "https://indico.fnal.gov/event/23628/contributions/240752/"
+  - title: "New Trigger Studies for Emerging Jets at CMS Experiment"
+    event: "PRISM/JTM Conference"
+    location: "Humacao, PR"
+    date: "2022-04-09"
+    type: "poster"
+    url: "/assets/pdfs/PRISM_BetterPoster_EMJ.pdf"
+  - title: "Recent Progress in ML for Tracker DQM"
+    event: "APS Division of Particles and Fields (DPF) Meeting"
+    location: "Virtual"
+    date: "2021-07-12"
+    type: "talk"
+    url: "https://indico.cern.ch/event/1034469/contributions/4434622/"
+    resume: true
+  - title: "Machine Learning in DQM at CMS Experiment"
+    event: "PhysCon (Sigma Pi Sigma Physics Congress)"
+    location: "Providence, RI"
+    date: "2019-11-13"
+    end: "2019-11-17"
+    type: "poster"
+    url: "/assets/pdfs/Physcon_Poster.pdf"
+  - title: "Machine Learning and Deep Neural Networks at CMS Experiment"
+    event: "Undergraduate Summer Physics Symposium, UPRM"
+    location: "Mayagüez, PR"
+    date: "2019-05-24"
+    type: "talk"
+    url: "http://charma.uprm.edu/~malik/Undergrad_Summer_Symposium/2019/GF_2019.pdf"
+  - title: "Machine Learning in DQM at CMS Experiment"
+    event: "PRISM/JTM Conference"
+    location: "Mayagüez, PR"
+    date: "2019-05-04"
+    type: "talk"
+    url: "/assets/pdfs/ML4DQM_PRISM_2019_Talk.pdf"
+  - title: "Using ML techniques for DQM at CMS"
+    event: "ML Hackathon, UPRM"
+    location: "Mayagüez, PR"
+    date: "2019-04-25"
+    type: "talk"
+    url: "https://indico.cern.ch/event/809812/contributions/3391219/"
+  - title: "Machine Learning in DQM at CMS Experiment"
+    event: "51st Fermilab Annual Users Meeting and New Perspectives Meeting"
+    location: "Fermilab, Batavia, IL"
+    date: "2018-06-18"
+    type: "talk"
+    url: "https://vms.fnal.gov/asset/detail?recid=1955984"
+
+# Workshops where I was an instructor or mentor for the wider HEP / research
+# community (HSF, IRIS-HEP, Carpentries, CMSDAS, ...). Change role to
+# "Instructor" for any workshop where you taught rather than mentored.
+teaching:
+  - title: "HSF/IRIS-HEP Software Basics Training"
+    role: "Mentor"
+    location: "Brookhaven National Laboratory, Upton, NY"
+    date: "2026-06-03"
+    end: "2026-06-05"
+    url: "https://indico.cern.ch/event/1683420/"
+  - title: "HSF/IRIS-HEP Analysis Reproducibility Training"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2025-03-24"
+    end: "2025-03-28"
+    url: "https://indico.cern.ch/event/1508102/timetable/"
+  - title: "CMS Data Analysis School (CMSDAS@LPC)"
+    role: "Facilitator"
+    location: "Fermilab, Batavia, IL"
+    date: "2024"  # TODO: exact dates and Indico link
+  - title: "CMS Data Analysis School (CMSDAS@LPC)"
+    role: "Facilitator"
+    location: "Fermilab, Batavia, IL"
+    date: "2023"  # TODO: exact dates and Indico link
+  - title: "HSF/IRIS-HEP Software Basics Training"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2022-09-28"
+    end: "2022-10-01"
+    url: "https://indico.cern.ch/event/1190572/"
+  - title: "DANCE@Snowmass"
+    role: "Mentor"
+    location: "University of Washington, Seattle, WA"
+    date: "2022-07-19"
+    end: "2022-07-23"
+    url: "https://indico.cern.ch/event/1151329/"
+  - title: "Software Carpentry"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2022-07-13"
+    end: "2022-07-15"
+    url: "https://www.raynamharris.com/2022-07-13-upr-online/"
+  - title: "Matplotlib Training"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2022-04-21"
+    end: "2022-04-22"
+    url: "https://indico.cern.ch/event/1058838/"
+  - title: "Software Carpentry"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2022-03-28"
+    end: "2022-03-30"
+    url: "https://indico.cern.ch/event/1112526/"
+  - title: "Data Analysis for Lab Research"
+    role: "Mentor"
+    location: "UPRM, Mayagüez, PR"
+    date: "2022-03-05"
+    url: "https://indico.cern.ch/event/1132342/"
+  - title: "Software Carpentry"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2021-12-13"
+    end: "2021-12-15"
+    url: "https://indico.cern.ch/event/1097111/"
+
+# Programs I mentored students in over a longer period.
+mentoring:
+  - title: "U.S. CMS PURSUE (Program for Undergraduate Research SUmmer Experience)"
+    role: "Mentor"
+    location: "Virtual"
+    date: "2022-06-06"
+    end: "2022-08-22"
+    description: "Mentored undergraduate interns from groups underrepresented in HEP on HEP software tools."
+    url: "https://sites.google.com/upr.edu/uscms-pursue/"
+    resume: true
+
+# Education and outreach activities I developed and organized, mostly for
+# students and STEM teachers in Puerto Rico.
+outreach:
+  - title: "Machine Learning Basics"
+    location: "CROEM, Mayagüez, PR"
+    date: "2023-11-28"
+    url: "https://indico.cern.ch/event/1353933/"
+  - title: "Python Programming Series: Machine Learning"
+    location: "UPRM, Mayagüez, PR"
+    date: "2023-11-17"
+    url: "https://indico.cern.ch/event/1353942/"
+  - title: "Python Programming Series: Pandas"
+    location: "UPRM, Mayagüez, PR"
+    date: "2023-11-10"
+    url: "https://indico.cern.ch/event/1353941/"
+  - title: "Python Programming Series: Matplotlib"
+    location: "UPRM, Mayagüez, PR"
+    date: "2023-10-06"
+    url: "https://indico.cern.ch/event/1353937/"
+  - title: "Machine Learning Training for Physics Undergrads"
+    location: "UPRM, Mayagüez, PR"
+    date: "2023-09-16"
+    end: "2023-09-17"
+    url: "https://indico.cern.ch/event/1327230/"
+  - title: "Python Programming Series: Basics"
+    location: "UPRM, Mayagüez, PR"
+    date: "2023-09-15"
+    url: "https://indico.cern.ch/event/1353934/"
+  - title: "Coding Camp"
+    location: "Virtual"
+    date: "2023-07-10"
+    end: "2023-07-12"
+    url: "https://indico.cern.ch/event/1305236/"
+  - title: "Python 101 for STEM Teachers"
+    location: "UPRM, Mayagüez, PR"
+    date: "2022-08-20"
+    url: "https://indico.cern.ch/event/1180502/"
+  - title: "Python 101 for STEM Teachers @CROEM"
+    location: "CROEM, Mayagüez, PR"
+    date: "2022-08-17"
+    url: "https://indico.cern.ch/event/1188757/"
+  - title: "Data Camp for STEM Teachers"
+    location: "Virtual"
+    date: "2020-06-20"
+    end: "2020-06-21"
+    description: "Taught Python to K-12 teachers."
+    url: "https://indico.cern.ch/event/860466/"
+  - title: "Astronomy Course for CROEM High School Students"
+    location: "Virtual"
+    date: "2021-01"
+    end: "2021-05"
+    description: "Added Python programming lessons and exercises to an introductory physics and astronomy course for high school students."
+  - title: "Machine Learning Basics for STEM Teachers"
+    location: "Virtual"
+    date: "2021-02-13"
+    end: "2021-02-14"
+    url: "https://indico.cern.ch/event/998732/"
+  - title: "Data Analysis for STEM Teachers"
+    location: "Virtual"
+    date: "2020-07-15"
+    end: "2020-07-16"
+    url: "https://indico.cern.ch/event/927162/"
+  - title: "Introduction to Python Programming for Undergrads"
+    location: "UPRM, Mayagüez, PR"
+    date: "2020-02-22"
+    description: "Taught physics students Python with HEP applications."
+    url: "https://indico.cern.ch/event/891702/"
+  - title: "STEM Teachers Workshop"
+    location: "UPRM, Mayagüez, PR"
+    date: "2019-06-03"
+    end: "2019-06-04"
+    description: "Taught coding to high school STEM teachers."
+    url: "https://indico.cern.ch/event/817539/"
+
+service:
+  - role: "Judge"
+    organization: "Puerto Rico Junior Academy of Sciences (PR-JAS) Fall Symposium"
+    location: "Virtual"
+    date: "2026-11-14"
+    description: "Judged research presented by local students at the Puerto Rico chapter of the Junior Academy of Science."
+    url: "https://prjas.alcancepr.com/home"
+    resume: true
+
+leadership:
+  - role: "Founder and President"
+    organization: "Scientific Software Club (SSC), UPRM"
+    start: "2019-08"
+    end: "2020"
+    highlights:
+      - text: "Founded the first software-focused student society in the UPRM Physics Department; grew it to more than 100 members."
+        resume: true
+      - text: "Ran about five workshops on Linux/Bash, Git and Python following Software Carpentry best practices."
+        resume: true
+    url: "https://sites.google.com/upr.edu/ssc-uprm/home"
+    resume: true
+  - role: "Treasurer"
+    organization: "Society of Physics Students (SPS), UPRM Chapter"
+    start: "2017-01"
+    end: "2018"
+    highlights:
+      - text: "Managed the chapter's finances, sales and membership enrollment."
+  - role: "Member, Demonstrations Committee"
+    organization: "Society of Physics Students (SPS), UPRM Chapter"
+    highlights:
+      - text: "Presented physics demonstrations (energy and momentum conservation, torque, atmospheric pressure, electromagnetism) to high school students and the public."
+
+awards:
+  - title: "Winner, Lockheed Martin Machine Learning Hackathon"
+    # TODO: add date: "YYYY"
+    awarder: "Lockheed Martin"
+    summary: "Used transfer learning with a pre-trained CNN to classify Mars Curiosity rover surface images."
+    url: "https://github.com/GuillermoFidalgo/ItDepends/tree/final"
+    resume: true
+
+certifications:
+  - name: "Certified Instructor"
+    issuer: "The Carpentries"
+    # TODO: add date: "YYYY"
+    url: "https://carpentries.org/"
+    resume: true
+
+memberships:
+  - organization: "CMS Collaboration, CERN"
+    resume: true
+  - organization: "HEP Software Foundation (HSF) Training Group"
+    url: "https://hepsoftwarefoundation.org/workinggroups/training.html"
+    resume: true
+  - organization: "IRIS-HEP Training Team"
+    url: "https://iris-hep.org/ssc.html"
+    resume: true
+
+skills:
+  - category: "Programming"
+    items: ["Python", "Bash"]
+  - category: "Data analysis and ML"
+    items: ["NumPy", "pandas", "Matplotlib", "Scikit-HEP ecosystem", "ROOT / PyROOT", "Convolutional neural networks", "Transfer learning", "Autoencoders"]
+  - category: "HEP software"
+    items: ["CMS High Level Trigger", "Data-quality monitoring (DQM)"]
+  - category: "Tools"
+    items: ["Git", "GitHub Actions", "GitLab CI", "Linux", "LaTeX"]
+  - category: "Web"
+    items: ["Jekyll", "Google Sites"]
+
+languages:
+  - language: "English"
+    fluency: "Fluent"
+  - language: "Spanish"
+    fluency: "Fluent"
+
+interests: ["Basketball", "Video games", "Billiards"]

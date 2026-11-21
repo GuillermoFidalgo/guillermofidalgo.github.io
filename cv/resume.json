@@ -1,0 +1,595 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Guillermo A. Fidalgo Rodríguez",
+    "label": "PhD Student in Experimental Particle Physics, CMS Experiment",
+    "email": "gafidalgo@crimson.ua.edu",
+    "url": "https://guillermofidalgo.github.io/",
+    "summary": "Experimental particle physicist (PhD student, CMS/CERN) who builds Python analysis frameworks, machine-learning tools for detector monitoring, and hardware test systems. Experienced teacher of research software (HSF, IRIS-HEP, The Carpentries) and bilingual in English and Spanish.",
+    "location": {
+      "city": "Tuscaloosa",
+      "region": "AL",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "GuillermoFidalgo",
+        "url": "https://github.com/GuillermoFidalgo"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "guillermo-fidalgo",
+        "url": "https://www.linkedin.com/in/guillermo-fidalgo"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0001-8605-9772",
+        "url": "https://orcid.org/0000-0001-8605-9772"
+      },
+      {
+        "network": "INSPIRE-HEP",
+        "username": "Guillermo.Fidalgo.1",
+        "url": "https://inspirehep.net/authors?q=a%20Guillermo.Fidalgo.1"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "University of Alabama, CMS Experiment at CERN",
+      "position": "Graduate Research Assistant",
+      "location": "Tuscaloosa, AL",
+      "startDate": "2024",
+      "summary": "Supervisor: Dr. Emanuele Usai",
+      "highlights": [
+        "Develop the analysis framework for the search for four-top-quark production in the single-lepton final state with CMS Run 3 data.",
+        "Set up the Multi-Module Testing System (MMTS) used to test HGCAL hexaboards for the CMS Phase-2 upgrade.",
+        "Contribute to data-quality monitoring (DQM) software for HGCAL.",
+        "Co-author of a study on continual learning with masked autoencoders for data-quality monitoring (arXiv:2603.02369)."
+      ]
+    },
+    {
+      "name": "University of Puerto Rico, Mayagüez, CMS Experiment at CERN",
+      "position": "Graduate Research Assistant",
+      "location": "Mayagüez, PR",
+      "startDate": "2020",
+      "endDate": "2024",
+      "highlights": [
+        "Measured trigger efficiencies in the signal and signal-free regions of the CMS search for emerging jets with full Run 2 data (JHEP 07 (2024) 142).",
+        "Developed machine-learning tools that help DQM shifters certify CMS Tracker data, and studied their use for the Tracker upgrade."
+      ],
+      "url": "https://github.com/GuillermoFidalgo/master-thesis/releases/download/v2.2/main.pdf"
+    },
+    {
+      "name": "University of Colorado Boulder",
+      "position": "Summer Research Intern (REU), Pathways to CU Physics",
+      "location": "Boulder, CO",
+      "startDate": "2021-06",
+      "endDate": "2021-08",
+      "summary": "Supervisor: Dr. Keith Ulmer",
+      "highlights": [
+        "Developed a new High Level Trigger path to select events with signatures of dark-matter decays to emerging jets."
+      ],
+      "url": "https://guillermofidalgo.github.io/assets/pdfs/CU_Pathways_Final_Report.pdf"
+    },
+    {
+      "name": "CERN",
+      "position": "Visiting Undergraduate Researcher, University of Michigan–CERN Research Semester",
+      "location": "Geneva, Switzerland",
+      "startDate": "2018-01",
+      "endDate": "2018-05",
+      "highlights": [
+        "Applied machine learning to data-quality monitoring of the CMS Hadron Calorimeter (HCAL); this became the basis of my undergraduate thesis.",
+        "Presented the work three times at CERN (March 15, April 12 and May 14, 2018)."
+      ],
+      "url": "https://guillermofidalgo.github.io/assets/pdfs/Biblatex_version_main.pdf"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Scientific Software Club (SSC), UPRM",
+      "position": "Founder and President",
+      "url": "https://sites.google.com/upr.edu/ssc-uprm/home",
+      "startDate": "2019-08",
+      "endDate": "2020",
+      "highlights": [
+        "Founded the first software-focused student society in the UPRM Physics Department; grew it to more than 100 members.",
+        "Ran about five workshops on Linux/Bash, Git and Python following Software Carpentry best practices."
+      ]
+    },
+    {
+      "organization": "Society of Physics Students (SPS), UPRM Chapter",
+      "position": "Treasurer",
+      "startDate": "2017-01",
+      "endDate": "2018",
+      "highlights": [
+        "Managed the chapter's finances, sales and membership enrollment."
+      ]
+    },
+    {
+      "organization": "Society of Physics Students (SPS), UPRM Chapter",
+      "position": "Member, Demonstrations Committee",
+      "highlights": [
+        "Presented physics demonstrations (energy and momentum conservation, torque, atmospheric pressure, electromagnetism) to high school students and the public."
+      ]
+    },
+    {
+      "organization": "HSF/IRIS-HEP Software Basics Training",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1683420/",
+      "startDate": "2026-06-03",
+      "endDate": "2026-06-05",
+      "summary": "Mentor. Brookhaven National Laboratory, Upton, NY"
+    },
+    {
+      "organization": "HSF/IRIS-HEP Analysis Reproducibility Training",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1508102/timetable/",
+      "startDate": "2025-03-24",
+      "endDate": "2025-03-28",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "CMS Data Analysis School (CMSDAS@LPC)",
+      "position": "Facilitator",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Facilitator. Fermilab, Batavia, IL"
+    },
+    {
+      "organization": "Machine Learning Basics",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1353933/",
+      "startDate": "2023-11-28",
+      "endDate": "2023-11-28",
+      "summary": "CROEM, Mayagüez, PR"
+    },
+    {
+      "organization": "Python Programming Series: Machine Learning",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1353942/",
+      "startDate": "2023-11-17",
+      "endDate": "2023-11-17",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Python Programming Series: Pandas",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1353941/",
+      "startDate": "2023-11-10",
+      "endDate": "2023-11-10",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Python Programming Series: Matplotlib",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1353937/",
+      "startDate": "2023-10-06",
+      "endDate": "2023-10-06",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Machine Learning Training for Physics Undergrads",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1327230/",
+      "startDate": "2023-09-16",
+      "endDate": "2023-09-17",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Python Programming Series: Basics",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1353934/",
+      "startDate": "2023-09-15",
+      "endDate": "2023-09-15",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Coding Camp",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1305236/",
+      "startDate": "2023-07-10",
+      "endDate": "2023-07-12",
+      "summary": "Virtual"
+    },
+    {
+      "organization": "CMS Data Analysis School (CMSDAS@LPC)",
+      "position": "Facilitator",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Facilitator. Fermilab, Batavia, IL"
+    },
+    {
+      "organization": "HSF/IRIS-HEP Software Basics Training",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1190572/",
+      "startDate": "2022-09-28",
+      "endDate": "2022-10-01",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "U.S. CMS PURSUE (Program for Undergraduate Research SUmmer Experience)",
+      "position": "Mentor",
+      "url": "https://sites.google.com/upr.edu/uscms-pursue/",
+      "startDate": "2022-06-06",
+      "endDate": "2022-08-22",
+      "summary": "Mentor. Virtual. Mentored undergraduate interns from groups underrepresented in HEP on HEP software tools"
+    },
+    {
+      "organization": "Python 101 for STEM Teachers",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1180502/",
+      "startDate": "2022-08-20",
+      "endDate": "2022-08-20",
+      "summary": "UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Python 101 for STEM Teachers @CROEM",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/1188757/",
+      "startDate": "2022-08-17",
+      "endDate": "2022-08-17",
+      "summary": "CROEM, Mayagüez, PR"
+    },
+    {
+      "organization": "DANCE@Snowmass",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1151329/",
+      "startDate": "2022-07-19",
+      "endDate": "2022-07-23",
+      "summary": "Mentor. University of Washington, Seattle, WA"
+    },
+    {
+      "organization": "Software Carpentry",
+      "position": "Mentor",
+      "url": "https://www.raynamharris.com/2022-07-13-upr-online/",
+      "startDate": "2022-07-13",
+      "endDate": "2022-07-15",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "Matplotlib Training",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1058838/",
+      "startDate": "2022-04-21",
+      "endDate": "2022-04-22",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "Software Carpentry",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1112526/",
+      "startDate": "2022-03-28",
+      "endDate": "2022-03-30",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "Data Analysis for Lab Research",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1132342/",
+      "startDate": "2022-03-05",
+      "endDate": "2022-03-05",
+      "summary": "Mentor. UPRM, Mayagüez, PR"
+    },
+    {
+      "organization": "Software Carpentry",
+      "position": "Mentor",
+      "url": "https://indico.cern.ch/event/1097111/",
+      "startDate": "2021-12-13",
+      "endDate": "2021-12-15",
+      "summary": "Mentor. Virtual"
+    },
+    {
+      "organization": "Astronomy Course for CROEM High School Students",
+      "position": "Organizer",
+      "startDate": "2021-01",
+      "endDate": "2021-05",
+      "summary": "Virtual. Added Python programming lessons and exercises to an introductory physics and astronomy course for high school students"
+    },
+    {
+      "organization": "Machine Learning Basics for STEM Teachers",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/998732/",
+      "startDate": "2021-02-13",
+      "endDate": "2021-02-14",
+      "summary": "Virtual"
+    },
+    {
+      "organization": "Data Analysis for STEM Teachers",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/927162/",
+      "startDate": "2020-07-15",
+      "endDate": "2020-07-16",
+      "summary": "Virtual"
+    },
+    {
+      "organization": "Data Camp for STEM Teachers",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/860466/",
+      "startDate": "2020-06-20",
+      "endDate": "2020-06-21",
+      "summary": "Virtual. Taught Python to K-12 teachers"
+    },
+    {
+      "organization": "Introduction to Python Programming for Undergrads",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/891702/",
+      "startDate": "2020-02-22",
+      "endDate": "2020-02-22",
+      "summary": "UPRM, Mayagüez, PR. Taught physics students Python with HEP applications"
+    },
+    {
+      "organization": "STEM Teachers Workshop",
+      "position": "Organizer",
+      "url": "https://indico.cern.ch/event/817539/",
+      "startDate": "2019-06-03",
+      "endDate": "2019-06-04",
+      "summary": "UPRM, Mayagüez, PR. Taught coding to high school STEM teachers"
+    },
+    {
+      "organization": "Puerto Rico Junior Academy of Sciences (PR-JAS) Fall Symposium",
+      "position": "Judge",
+      "url": "https://prjas.alcancepr.com/home",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "summary": "Judged research presented by local students at the Puerto Rico chapter of the Junior Academy of Science."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Alabama",
+      "area": "Physics",
+      "studyType": "Ph.D.",
+      "startDate": "2024"
+    },
+    {
+      "institution": "University of Puerto Rico, Mayagüez (UPRM)",
+      "area": "Physics",
+      "studyType": "M.S.",
+      "startDate": "2020",
+      "endDate": "2024"
+    },
+    {
+      "institution": "University of Puerto Rico, Mayagüez (UPRM)",
+      "area": "Physics",
+      "studyType": "B.S.",
+      "startDate": "2014",
+      "endDate": "2020",
+      "courses": [
+        "Minor: Applied Mathematics"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Winner, Lockheed Martin Machine Learning Hackathon",
+      "awarder": "Lockheed Martin",
+      "summary": "Used transfer learning with a pre-trained CNN to classify Mars Curiosity rover surface images."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified Instructor",
+      "issuer": "The Carpentries",
+      "url": "https://carpentries.org/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Continual Learning via Ensemble-Based Depth-Wise Masked Autoencoders for Data Quality Monitoring in High-Energy Physics",
+      "publisher": "arXiv:2603.02369 [hep-ex]",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2603.02369",
+      "summary": "D. Julson, E. Reinhardt, A. Krutsylo, R. Sohal, G. Fidalgo, S. Gleyzer, and E. Usai"
+    },
+    {
+      "name": "Search for new physics with emerging jets in proton-proton collisions at √s = 13 TeV",
+      "publisher": "JHEP 07 (2024) 142, arXiv:2403.01556",
+      "releaseDate": "2024",
+      "url": "https://doi.org/10.1007/JHEP07(2024)142",
+      "summary": "CMS Collaboration (A. Hayrapetyan et al.)"
+    },
+    {
+      "name": "Teaching Python the Sustainable Way: Lessons Learned at HSF Training",
+      "publisher": "PyHEP 2022, Zenodo",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.5281/zenodo.7115834",
+      "summary": "A. Moreno Briceño, A. Goel, and G. A. Fidalgo Rodríguez"
+    },
+    {
+      "name": "Broadening the Scope of Education, Career and Open Science in HEP",
+      "publisher": "Snowmass 2021, arXiv:2203.08809 [physics.ed-ph]",
+      "releaseDate": "2022",
+      "url": "https://arxiv.org/abs/2203.08809",
+      "summary": "S. Malik et al."
+    },
+    {
+      "name": "Particle Physics Outreach to K-12 Schools and Opportunities in Undergraduate Education",
+      "publisher": "Snowmass 2021, arXiv:2203.10953 [physics.ed-ph]",
+      "releaseDate": "2022",
+      "url": "https://arxiv.org/abs/2203.10953",
+      "summary": "M. G. Bardeen et al."
+    },
+    {
+      "name": "Facilitating Non-HEP Career Transition",
+      "publisher": "Snowmass 2021, arXiv:2203.11665 [physics.ed-ph]",
+      "releaseDate": "2022",
+      "url": "https://arxiv.org/abs/2203.11665",
+      "summary": "S. Malik, A. Karadzhinova-Ferrer, J. Hogan, R. Bray, R. Kamalieddin, K. Flood, A. El-Zant, G. Fidalgo, D. Bruhwiler, and M. Bellis"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Data analysis and ML",
+      "keywords": [
+        "NumPy",
+        "pandas",
+        "Matplotlib",
+        "Scikit-HEP ecosystem",
+        "ROOT / PyROOT",
+        "Convolutional neural networks",
+        "Transfer learning",
+        "Autoencoders"
+      ]
+    },
+    {
+      "name": "HEP software",
+      "keywords": [
+        "CMS High Level Trigger",
+        "Data-quality monitoring (DQM)"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "GitHub Actions",
+        "GitLab CI",
+        "Linux",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Web",
+      "keywords": [
+        "Jekyll",
+        "Google Sites"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Basketball"
+    },
+    {
+      "name": "Video games"
+    },
+    {
+      "name": "Billiards"
+    }
+  ],
+  "x-talks": [
+    {
+      "title": "Four top quark production at Run 3 in the single-lepton final state with CMS",
+      "event": "APS Global Physics Summit",
+      "location": "Denver, CO",
+      "date": "2026-03-19",
+      "type": "talk",
+      "url": "https://cms-mgt-conferences.web.cern.ch/conferences/pres_display.aspx?cid=4100&pid=32344",
+      "resume": true
+    },
+    {
+      "title": "Trigger Development for Emerging Jet Analysis",
+      "event": "56th Fermilab Annual Users Meeting",
+      "location": "Fermilab, Batavia, IL",
+      "date": "2023-06-28",
+      "type": "poster",
+      "url": "https://indico.fnal.gov/event/59656/contributions/268969/",
+      "resume": true
+    },
+    {
+      "title": "HEP Software Training with HSF/IRIS-HEP",
+      "event": "New Perspectives Meeting",
+      "location": "Fermilab, Batavia, IL",
+      "date": "2023-06-27",
+      "type": "talk",
+      "url": "https://indico.fnal.gov/event/59506/contributions/269987/",
+      "resume": true
+    },
+    {
+      "title": "Teaching Python the Sustainable Way: Lessons Learned at HSF Training",
+      "event": "PyHEP 2022 Workshop",
+      "location": "Virtual",
+      "date": "2022-09-12",
+      "type": "talk",
+      "url": "https://indico.cern.ch/event/1150631/contributions/5014278/"
+    },
+    {
+      "title": "PyROOT tutorial experience from SWC Workshop",
+      "event": "12th ROOT Users' Workshop",
+      "location": "Virtual",
+      "date": "2022-05-10",
+      "type": "talk",
+      "url": "https://indico.fnal.gov/event/23628/contributions/240752/"
+    },
+    {
+      "title": "New Trigger Studies for Emerging Jets at CMS Experiment",
+      "event": "PRISM/JTM Conference",
+      "location": "Humacao, PR",
+      "date": "2022-04-09",
+      "type": "poster",
+      "url": "https://guillermofidalgo.github.io/assets/pdfs/PRISM_BetterPoster_EMJ.pdf"
+    },
+    {
+      "title": "Recent Progress in ML for Tracker DQM",
+      "event": "APS Division of Particles and Fields (DPF) Meeting",
+      "location": "Virtual",
+      "date": "2021-07-12",
+      "type": "talk",
+      "url": "https://indico.cern.ch/event/1034469/contributions/4434622/",
+      "resume": true
+    },
+    {
+      "title": "Machine Learning in DQM at CMS Experiment",
+      "event": "PhysCon (Sigma Pi Sigma Physics Congress)",
+      "location": "Providence, RI",
+      "date": "2019-11-13",
+      "end": "2019-11-17",
+      "type": "poster",
+      "url": "https://guillermofidalgo.github.io/assets/pdfs/Physcon_Poster.pdf"
+    },
+    {
+      "title": "Machine Learning and Deep Neural Networks at CMS Experiment",
+      "event": "Undergraduate Summer Physics Symposium, UPRM",
+      "location": "Mayagüez, PR",
+      "date": "2019-05-24",
+      "type": "talk",
+      "url": "http://charma.uprm.edu/~malik/Undergrad_Summer_Symposium/2019/GF_2019.pdf"
+    },
+    {
+      "title": "Machine Learning in DQM at CMS Experiment",
+      "event": "PRISM/JTM Conference",
+      "location": "Mayagüez, PR",
+      "date": "2019-05-04",
+      "type": "talk",
+      "url": "https://guillermofidalgo.github.io/assets/pdfs/ML4DQM_PRISM_2019_Talk.pdf"
+    },
+    {
+      "title": "Using ML techniques for DQM at CMS",
+      "event": "ML Hackathon, UPRM",
+      "location": "Mayagüez, PR",
+      "date": "2019-04-25",
+      "type": "talk",
+      "url": "https://indico.cern.ch/event/809812/contributions/3391219/"
+    },
+    {
+      "title": "Machine Learning in DQM at CMS Experiment",
+      "event": "51st Fermilab Annual Users Meeting and New Perspectives Meeting",
+      "location": "Fermilab, Batavia, IL",
+      "date": "2018-06-18",
+      "type": "talk",
+      "url": "https://vms.fnal.gov/asset/detail?recid=1955984"
+    }
+  ],
+  "meta": {
+    "lastModified": "2026-11-21",
+    "source": "_data/cv.yml"
+  }
+}

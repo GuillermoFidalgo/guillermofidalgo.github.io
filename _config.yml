@@ -28,7 +28,16 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  # cv/ holds the generator and its outputs; the CV page (CV.md) pulls in
+  # cv/CV.md itself, so the raw files should not become pages of their own.
+  - cv/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Other common excludes:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

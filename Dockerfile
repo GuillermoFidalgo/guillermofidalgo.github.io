@@ -4,7 +4,7 @@ WORKDIR /srv/jekyll
 
 COPY Gemfile /srv/jekyll
 
-RUN apt-get update && apt-get install -y build-essential  && \
+RUN apt-get update && apt-get install -y build-essential libssl-dev && \
     gem install jekyll bundler && \
     bundle install --jobs=4 --retry=3
     # && \

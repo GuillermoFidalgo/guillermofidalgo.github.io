@@ -3,3 +3,12 @@
 ---
 
 @import "minima";
+
+// Printing a page (e.g. the CV to PDF): drop the site chrome.
+@media print {
+  .site-header, .site-footer { display: none; }
+  .page-content { padding: 0; }
+  a { color: inherit; }
+  h2, h3 { break-after: avoid; }
+  li { break-inside: avoid; }
+}

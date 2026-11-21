@@ -37,7 +37,7 @@ jobs:
           python-version: '3.14'
 
     - run: pip install Pygments requests pandas
-    - run: python createbib.py &&  python mentored.py && python conferences.py
+    - run: python createbib.py
 
     - name: install pandoc
       uses: docker://pandoc/core:3.1
